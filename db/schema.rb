@@ -33,7 +33,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_03_10_155645) do
 
   create_table "formations", force: :cascade do |t|
     t.string "name"
-    t.string "type"
+    t.string "level"
     t.integer "duration"
     t.integer "price"
     t.string "url_formation"
