@@ -74,7 +74,7 @@ end
 # Seed Choices
 puts "creating choices..."
 questions.each do |question|
-  rand(2..4).times do
+  4.times do
     Choice.create!(
       question_id: question.id,
       category_id: categories.sample.id,
