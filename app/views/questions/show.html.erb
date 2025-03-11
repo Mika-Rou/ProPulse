@@ -1,0 +1,20 @@
+<div class="container py-5">
+
+    <h2><%= @question.question %></h2>
+
+    <div class="d-flex py-5 gap-3">
+      <% @question.choices.each do |choice| %>
+      <div class="btn btn-outline-primary rounded-3 px-4 py-3 text-decoration-none">
+          <%= link_to choice.choice %>
+      </div>
+      <% end %>
+    </div>
+
+    <%= link_to "Question suivante", test_question_path, class: "btn btn-primary rounded-3 px-4 py-3 " %>
+
+</div>
+
+
+   <%= simple_form_for @question do |f| %>
+      <%= f.button  %>
+    <% end %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'user_answers/create'
   get 'questions/users'
   get 'questions/tests'
   devise_for :users
