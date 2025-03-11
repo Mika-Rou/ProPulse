@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'user_answers/create'
   get 'questions/users'
   get 'questions/tests'
   devise_for :users
@@ -13,8 +12,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   resources :users, only: %i[show edit update]
-  resources :tests, only: %i[index show] do
-    resources :questions, only: %i[show]
-  end
+  resources :user_answers, only: [:create]
 
+  resources :tests, only: %i[index show]
+  resources :questions, only: %i[show]
 end
