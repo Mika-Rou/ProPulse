@@ -9,6 +9,16 @@ class DashboardController < ApplicationController
                                     .where(job_formations: { job_id: @job.id })
                                     .pluck(:name, :duration)
                                     .to_h
+
+    @formations_for_job_duration = Formation.joins(:job_formations)
+                                    .where(job_formations: { job_id: @job.id })
+                                    .pluck(:name, :duration)
+                                    .to_h
+
+    @formations_for_job_price = Formation.joins(:job_formations)
+                                 .where(job_formations: { job_id: @job.id })
+                                 .pluck(:name, :price)
+                                 .to_h
   end
 
   def update

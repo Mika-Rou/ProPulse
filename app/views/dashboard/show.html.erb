@@ -43,6 +43,8 @@
       <h5 class="text-end">TOP 10 métiers</h5>
       <%= render 'dashboard/list_jobs', jobs: @jobs %>
     </div>
+    <div class="col-8">
       <%= render 'jobs/jobs_details', job: @job, formation_for_job: @formations_for_job %>
+    </div>
   </div>
 </div>

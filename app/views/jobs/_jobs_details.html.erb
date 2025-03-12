@@ -1,18 +1,19 @@
-<%= turbo_frame_tag :job_description, class:"row" do %>
 
+<%= turbo_frame_tag :job_description do %>
   <%# ! COLONNE 2 %>
     <%# ! JOB DESCRIPTION %>
-  <div class="col-4 text-start">
+    <div class="row h-100">
+  <div class="col-6 text-start">
     <div class="d-flex flex-column justify-content-between h-100">
       <%= render 'jobs/description', job: job %>
 
     <%# ! FORMATIONS DISPONIBLES %>
-      <%= render 'jobs/formation', formations_for_job: @formations_for_job %>
+      <%= render 'jobs/formation'%>
     </div>
   </div>
 
   <%# ! COLONNE 3 %>
-  <div class="col-4 text-center">
+  <div class="col-6 text-center">
     <div class="d-flex flex-column justify-content-between h-100">
       <%# ! PIE CHART %>
       <div class="border border-dark-2 rounded-4 h-75 mb-3 pt-3">
@@ -29,4 +30,5 @@
       <%= render 'jobs/salary', job: job %>
     </div>
   </div>
+</div>
 <% end %>
