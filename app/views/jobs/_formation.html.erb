@@ -1,14 +1,20 @@
 <div class="border border-dark-2 rounded-4 h-75 pt-3">
   <h5 class="text-end me-3">Formations</h5>
-  <%= column_chart formations_for_job,
-    colors: ["#3498DB"],
-    library: {
-      title: { display: true, text: "Durée des formations associées", fontSize: 18 },
-      legend: { display: false },
-      scales: {
-      xAxes: [{ ticks: { fontSize: 14 } }], # Gère les labels sur l'axe X (noms des formations)
-      yAxes: [{ ticks: { beginAtZero: true, stepSize: 1, fontSize: 14 } }] # Durées sur Y
-      }
-    }
-  %>
+
+  <form id="chart-toggle" class="d-flex align-items-center">
+    <div class="d-flex">
+      <label class="d-flex align-items-center me-3">
+        <input type="radio" name="chart_type" id="duration" checked />
+        <span class="ms-1">Durée</span>
+      </label>
+      <label class="d-flex align-items-center">
+        <input type="radio" name="chart_type" id="price" />
+        <span class="ms-1">Prix</span>
+      </label>
+    </div>
+  </form>
+  <div id="chart-container" data-controller="chart-toggle">
+    <%= column_chart @formations_for_job_duration, data:{chart_toggle_target: "duration"}, id: "duration-chart", colors: ["#3498db"], library: { title: { display: true, text: "Durée des formations" } } %>
+    <%= column_chart @formations_for_job_price, data:{chart_toggle_target: "price"}, class:"d-none", id: "price-chart", colors: ["#e74c3c"], library: { title: { display: true, text: "Prix des formations" } } %>
+  </div>
 </div>
