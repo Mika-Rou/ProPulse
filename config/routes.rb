@@ -15,6 +15,6 @@ Rails.application.routes.draw do
 
   resources :user_answers, only: [:create]
   resources :dashboard, only: %i[show edit update]
-  resources :tests, only: %i[index show] 
+  resources :tests, only: %i[index show]
   resources :questions, only: %i[show]
-
+end
