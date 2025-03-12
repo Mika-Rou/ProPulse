@@ -1,0 +1,14 @@
+<div class="border border-dark-2 rounded-4 h-75 pt-3">
+  <h5 class="text-end me-3">Formations</h5>
+  <%= column_chart formations_for_job,
+    colors: ["#3498DB"],
+    library: {
+      title: { display: true, text: "Durée des formations associées", fontSize: 18 },
+      legend: { display: false },
+      scales: {
+      xAxes: [{ ticks: { fontSize: 14 } }], # Gère les labels sur l'axe X (noms des formations)
+      yAxes: [{ ticks: { beginAtZero: true, stepSize: 1, fontSize: 14 } }] # Durées sur Y
+      }
+    }
+  %>
+</div>
