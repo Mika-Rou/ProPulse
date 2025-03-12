@@ -1,15 +1,22 @@
 class UserAnswersController < ApplicationController
   def create
-    @user_answer = UserAnswer.new(user_id: current_user.id)
+    @question = Question.find(params[:question_id])
+    @test = @question.test
+    @user_answer = UserAnswer.new(user: current_user)
     @user_answer.choice_id = params[:user_answer][:choice_id]
-    @test = @user_answer.choice.question.test
-    @question = @user_answer.choice.question
-    @user_answer.save
+
+    if @user_answer.save
     next_question = find_next_question
-    if next_question
-      redirect_to question_path(next_question)
+
+      if next_question
+        redirect_to question_path(next_question)
+      else
+        redirect_to dashboard_path(current_user)
+      end
+
     else
-      redirect_to user_path(current_user)
+      flash[:alert] = "Erreur de sauvegarde"
+      redirect_to question_path(@question)
     end
   end
 

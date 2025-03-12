@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   resources :tests, only: %i[index show]
   resources :questions, only: %i[show]
   resources :jobs, only: %i[show]
+
 end
