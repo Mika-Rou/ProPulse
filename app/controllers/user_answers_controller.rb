@@ -22,7 +22,7 @@ class UserAnswersController < ApplicationController
       end
 
     else
-      flash[:alert] = "Erreur de sauvegarde"
+      flash[:alert] = "Oups ! Il semble que vous n'ayez pas encore saisi de réponse. Essayez à nouveau !"
       redirect_to question_path(@question)
     end
   end

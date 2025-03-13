@@ -1,27 +1,33 @@
 <div class="container py-5">
 
-  <div class="card-product">
-    <img src="" />
-    <div class="card-product-infos">
-      <p><%= @question.test.category %></p>
-      <h2><%= @question.test.name %></h2>
+  <div class="d-flex gap-4">
+    <%= image_tag 'img-test-1.png', class: "icon-width" %>
+
+    <div class="d-flex flex-column gap-1 justify-content-center">
+      <p>Catégorie : <%= @question.test.category %></p>
+      <h1 class="fs-1 fst-italic"><%= @question.test.name %></h1>
     </div>
   </div>
 
-  <div class="progress mt-4">
+  <div class="progress mt-5">
     <div class="progress-bar" role="progressbar" style="width: <%= @progress %>%;" aria-valuenow="<%= @progress %>" aria-valuemin="0" aria-valuemax="100">
       <%= @progress %>%
     </div>
   </div>
 
-  <h2 class="my-5"><%= @question.position %>/<%= @test.questions.count %> - <%= @question.question %></h2>
+  <h3 class="title-inter my-5"><%= @question.position %>/<%= @test.questions.count %> - <%= @question.question %></h3>
 
   <div class="questions_form">
     <%= simple_form_for @user_answer do |f| %>
 
       <%= hidden_field_tag :question_id, @question.id %>
 
-      <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice %>
+      <div class="form-grid">
+        <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice do |b| %>
+            <%= b.radio_button(class: "radio-button") %>
+            <%= b.label(class: "label-button") %>
+        <% end %>
+      </div>
 
       <div class="d-flex mt-5 justify-content-center">
         <% if @question == @test.questions.last %>
@@ -30,6 +36,8 @@
           <%= f.submit 'Question suivante', class: 'btn-principal' %>
         <% end %>
       </div>
+
     <% end %>
   </div>
+
 </div>
