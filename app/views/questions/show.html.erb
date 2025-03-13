@@ -14,19 +14,22 @@
     </div>
   </div>
 
-  <h2><%= @question.question %> (<%= @question.position %>/<%= @test.questions.count %>)</h2>
+  <h2 class="my-5"><%= @question.position %>/<%= @test.questions.count %> - <%= @question.question %></h2>
 
-  <%= simple_form_for @user_answer do |f| %>
+  <div class="questions_form">
+    <%= simple_form_for @user_answer do |f| %>
 
-    <%= hidden_field_tag :question_id, @question.id %>
+      <%= hidden_field_tag :question_id, @question.id %>
 
-    <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice %>
+      <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice %>
 
-    <% if @question == @test.questions.last %>
-      <%= f.submit 'Valider le test', class: 'btn btn-outline-primary rounded-3 px-4 py-3' %>
-    <% else %>
-      <%= f.submit 'Question suivante', class: 'btn btn-outline-primary rounded-3 px-4 py-3' %>
+      <div class="d-flex mt-5 justify-content-center">
+        <% if @question == @test.questions.last %>
+          <%= f.submit 'Valider le test', class: 'btn-principal' %>
+        <% else %>
+          <%= f.submit 'Question suivante', class: 'btn-principal' %>
+        <% end %>
+      </div>
     <% end %>
-
-  <% end %>
+  </div>
 </div>
