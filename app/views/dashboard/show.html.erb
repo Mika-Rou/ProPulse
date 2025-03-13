@@ -35,11 +35,11 @@
 </div>
 
 <%# ! DASHBOARD %>
-<div class="container mt-5" styles="height: 600px">
+<div class="container mt-5" style="height: 600px">
   <div class="row gap-3 flex-nowrap w-100 my-3">
 
     <%# COLONNE 1 %>
-    <div class="col-4 text-start border border-dark-2 rounded-4 pt-3">
+    <div class="col-4 text-start border border-black rounded-4 pt-3">
       <h5 class="text-end">TOP 10 métiers</h5>
       <div class="list-group">
         <% @jobs.each do |job| %>
@@ -52,13 +52,13 @@
       <%#  ! DESCRIPTION METIER %>
     <div class="col-4 text-start">
       <div class="d-flex flex-column justify-content-between h-100">
-        <div class="border border-dark-2 rounded-4 mb-3 h-25 pt-3">
+        <div class="border border-black rounded-4 mb-3 h-25 pt-3">
           <h5 class="text-end me-3">Description</h5>
           <p class="ms-3"><%= @job.description %></p>
         </div>
 
       <%# ! FORMATIONS DISPONIBLES %>
-        <div class="border border-dark-2 rounded-4 h-75 pt-3">
+        <div class="border border-black rounded-4 h-75 pt-3">
           <h5 class="text-end me-3">Formations</h5>
           <%= column_chart @formations_for_job,
             colors: ["#3498DB"],
@@ -78,7 +78,7 @@
     <%# ! COLONNE 3 %>
     <div class="col-4 text-center">
       <div class="d-flex flex-column justify-content-between h-100">
-        <div class="border border-dark-2 rounded-4 h-75 mb-3 pt-3">
+        <div class="border border-black rounded-4 h-75 mb-3 pt-3">
             <%= pie_chart @category_score,
             donut: true,
             colors: ["#1700AD", "#0072E6", "#00ABB2", "#78D67E"],
@@ -88,7 +88,7 @@
             }
             %>
         </div>
-        <div class="border border-dark-2 rounded-4 h-25 pt-3">
+        <div class="border border-black rounded-4 h-25 pt-3">
           <h5>Salaire moyen</h5>
           <p class="fs-1"><strong><%= @job.salary %>€</strong></p>
         </div>
