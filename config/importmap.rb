@@ -11,3 +11,4 @@ pin "@popperjs/core", to: "popper.js", preload: true
 # gem added
 pin "chartkick", to: "chartkick.js"
 pin "Chart.bundle", to: "Chart.bundle.js"
+pin "gsap", to: "https://ga.jspm.io/npm:gsap@3.12.2/index.js"

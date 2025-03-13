@@ -1,4 +1,4 @@
-<header class="p-3 mb-3 bg-white border-bottom sticky-top">
+<header class="p-3 mb-3 sticky-top">
   <div>
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
@@ -6,30 +6,23 @@
       </a>
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="/" class="nav-link px-2 link-body-emphasis fs-4"><strong>ProPulse</strong></a></li>
-<%#           <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
-        <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li> %>
+        <li><a href="/" class="nav-link px-2 link-body-emphasis fs-4 text-<%= white_mode ? "white" : "black" %>"><strong>ProPulse</strong></a></li>
       </ul>
 
         <% if user_signed_in? %>
-          <button type="button" class="btn btn-danger me-3 rounded-5">
-            <%= link_to "+ Add 🍺", root_path, class:"nav-link px-2 text-white" %>
+          <button type="button" class="btn btn-<%= white_mode ? "light" : "dark" %> me-3 rounded-5">
+            <%= link_to '<i class="fa-solid fa-gauge"></i>'.html_safe, dashboard_path(current_user), class:"text-#{white_mode ? 'black' : 'white'}" %>
           </button>
-          <div class="dropdown-start text-end">
-            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mdo" width="32" height="32" class="rounded-circle object-fit-cover">
-            </a>
-            <ul class="dropdown-menu text-small mt-2">
-              <li><%= link_to "Profile", root_path, class: "dropdown-item" %></li>
-              <%# <li><%= link_to "Orders", orders_path, class: "dropdown-item" %></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete}, class: "dropdown-item" %></li>
-            </ul>
-          </div>
+          <%# <a href="/dashboard/" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mdo" width="32" height="32" class="border border-3 border-light rounded-5 object-fit-cover">
+          </a> %>
+          <button type="button" class="btn btn-<%= white_mode ? "light" : "dark" %> me-3 rounded-5">
+            <%= link_to '<i class="fa-solid fa-lock"></i>'.html_safe, destroy_user_session_path, data: {turbo_method: :delete}, class: "text-#{white_mode ? 'black' : 'white'}" %>
+          </button>
         </div>
         <% else %>
-          <button type="button" class="btn btn-danger me-3 rounded-5">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+          <button type="button" class="btn btn-light me-3 rounded-5">
+            <%= link_to '<i class="fa-solid fa-lock"></i>'.html_safe, new_user_session_path, class: "text-<%= white_mode ? 'white' : 'black'" %>
           </button>
         <% end %>
     </div>
