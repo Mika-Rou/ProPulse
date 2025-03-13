@@ -154,6 +154,7 @@ GEM
       sassc (~> 2.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    greensock-rails (1.20.4.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.1.0)
@@ -352,6 +353,7 @@ DEPENDENCIES
   dotenv-rails
   faker
   font-awesome-sass (~> 6.1)
+  greensock-rails
   importmap-rails
   jbuilder
   pg (~> 1.1)

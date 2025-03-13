@@ -26,3 +26,25 @@ $border-radius-xl:            .5rem;
 $border-radius-xxl:           1rem;
 
 // Override other variables below!
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.8rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: 1.4rem;
+
+// Nouvelle échelle d'espacement basée sur le ratio 1.250
+$spacer: 1.250rem;
+
+$spacer-xs: $spacer;
+$spacer-sm: $spacer * 0.5 * 1.250;  // 0.625rem
+$spacer-md: $spacer * 1 * 1.250;    // 1.25rem
+$spacer-lg: $spacer * 1.5 * 1.250;  // 1.875rem
+$spacer-xl: $spacer * 2 * 1.250;    // 2.5rem
+$spacer-xxl: $spacer * 3 * 1.250;   // 3.75rem
+
+// Marges et paddings basés sur ces valeurs
+$margin-base: $spacer-md;           // Marge de base à 1.25rem
+$padding-base: $spacer-md;          // Padding de base à 1.25rem
+
+// Remplacer les valeurs de Bootstrap pour les marges
+$spacer: $spacer-md; // Appliquer le nouveau spacer pour tout le système
