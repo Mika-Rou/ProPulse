@@ -8,14 +8,25 @@
     </div>
   </div>
 
-    <div class="progress mt-4">
-      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  <div class="progress mt-4">
+    <div class="progress-bar" role="progressbar" style="width: <%= @progress %>%;" aria-valuenow="<%= @progress %>" aria-valuemin="0" aria-valuemax="100">
+      <%= @progress %>%
     </div>
+  </div>
 
-    <h2><%= @question.question %></h2>
+  <h2><%= @question.question %> (<%= @question.position %>/<%= @test.questions.count %>)</h2>
 
   <%= simple_form_for @user_answer do |f| %>
-     <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice %>
-         <%= f.submit 'Question suivante', class: 'btn btn-primary rounded-3 px-4 py-3' %>
+
+    <%= hidden_field_tag :question_id, @question.id %>
+
+    <%= f.collection_radio_buttons :choice_id, @question.choices, :id, :choice %>
+
+    <% if @question == @test.questions.last %>
+      <%= f.submit 'Valider le test', class: 'btn btn-outline-primary rounded-3 px-4 py-3' %>
+    <% else %>
+      <%= f.submit 'Question suivante', class: 'btn btn-outline-primary rounded-3 px-4 py-3' %>
+    <% end %>
+
   <% end %>
 </div>
