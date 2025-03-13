@@ -1,0 +1,37 @@
+.questions_form {
+  text-align: center;
+
+  span {
+    input[type="radio"] {
+      display: none;
+
+      &:checked + label {
+        background-color: $green;
+        color: $light-gray;
+      }
+    }
+
+    label.collection_radio_buttons {
+      cursor: pointer;
+      padding: 16px 32px;
+      border: 1px solid rgba($secondary, 0.3);
+      border-radius: 4px;
+      display: inline-block;
+
+      &:hover {
+        background-color: rgba($green, 0.5);
+      }
+    }
+  }
+}
+
+.btn-principal {
+  padding: 16px 32px;
+  border: 1px solid $primary;
+  border-radius: 4px;
+  color: $gray;
+
+  &:hover{
+    background-color: $primary;
+  }
+}

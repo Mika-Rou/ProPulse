@@ -4,7 +4,6 @@ class UserAnswersController < ApplicationController
     @test = @question.test
     @user_answer = UserAnswer.new(user: current_user)
     @user_answer.choice_id = params[:user_answer][:choice_id]
-    raise
 
     @result = Choice.joins(:user_answers)
                                     .where(user_answers: { user_id: current_user.id })
