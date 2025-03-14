@@ -1,0 +1,48 @@
+.card-test {
+  position: relative;
+  align-content: end;
+  height: 500px;
+  padding: 1.25rem;
+  overflow: hidden;
+  border-radius: 16px;
+
+  .category-label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: $light-gray;
+    border: 1px solid $light-gray;
+    padding: 8px 24px;
+    border-radius: 4px;
+  }
+
+  .card-test-content {
+    color: $light-gray;
+
+    .btn-principal-white {
+      padding: 16px 32px;
+      border: 1px solid $light-gray;
+      border-radius: 4px;
+      color: $light-gray;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+
+      &:hover {
+        background-color: $light-gray;
+        color: $gray
+      }
+
+      opacity: 0;
+      transform: translateY(100px);
+      transition: transform 0.6s ease, opacity 0.6s ease, background-color 0.3s ease, color 0.3s ease;
+    }
+  }
+
+  &:hover {
+    .btn-principal-white {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
