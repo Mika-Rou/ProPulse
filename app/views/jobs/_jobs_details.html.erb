@@ -16,7 +16,8 @@
   <div class="col-6 text-center">
     <div class="d-flex flex-column justify-content-between h-100">
       <%# ! PIE CHART %>
-      <div class="border border-dark-2 rounded-4 h-75 mb-3 pt-3">
+      <div class="border border-dark rounded-4 h-75 mb-3 pt-3">
+        <h5 class="text-end me-3">Profil</h5>
           <%= pie_chart @category_score,
           donut: true,
           colors: ["#1700AD", "#0072E6", "#00ABB2", "#78D67E"],
@@ -25,6 +26,11 @@
             animation: { duration: 2000, easing: "easeOutBounce" }
           }
           %>
+          <p class="px-3 text-justify mt-3", style="font-size: 0.8rem;">
+            Ce graphique représente un profil basé sur quatre dimensions :
+            artistique, réaliste, logique et social. Il permet de visualiser les tendances
+            dominantes du profil.
+          </p>
       </div>
       <%# ! JOB SALARY%>
       <%= render 'jobs/salary', job: job %>
