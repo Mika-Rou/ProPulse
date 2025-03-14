@@ -27,11 +27,15 @@ export default class extends Controller {
 
     // Sélection des éléments à animer
     let title = document.querySelector(".fade-in-title");
-    let text = document.querySelector(".fade-in-text");
+    let texts = document.querySelectorAll(".fade-in-text");
 
     // Découpe le texte en lettres avec espaces
     splitText(title);
-    splitText(text);
+    texts.forEach(text => {
+      console.log(text)
+      splitText(text)
+    });
+
 
     // Animation des lettres une par une
     gsap.from(title.querySelectorAll("span"), {
@@ -42,13 +46,15 @@ export default class extends Controller {
       stagger: 0.05, // Décalage entre chaque lettre
     });
 
-    gsap.from(text.querySelectorAll("span"), {
-      opacity: 0,
-      y: 10,
-      duration: 0.5,
-      ease: "power2.out",
-      delay: 0.5,
-      stagger: 0.03,
+    texts.forEach(text => {
+      gsap.from(text.querySelectorAll("span"), {
+        opacity: 0,
+        y: 10,
+        duration: 0.5,
+        ease: "power2.out",
+        delay: 0.5,
+        stagger: 0.07,
+      });
     });
 
     // Animation du bouton
