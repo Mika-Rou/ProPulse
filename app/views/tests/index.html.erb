@@ -1,0 +1,16 @@
+<div class="container py-5">
+  <h1 class="mb-5">Quel type de test<br>souhaitez-vous passer ?</h1>
+
+  <div class="test-grid gap-3 justify-content-between">
+    <%= render 'shared/main_cards', imgName: "gradient-1.jpg",
+                                    title: "Tests <br>de personnalité".html_safe,
+                                    description: "Déterminez vos traits dominants et votre mode de fonctionnement." %>
+    <%= render 'shared/main_cards', imgName: "gradient-2.jpg",
+                                    title: "Tests d’intérêts<br> profesionnels".html_safe,
+                                    description: "Identifiez les domaines qui vous motivent le plus." %>
+    <%= render 'shared/main_cards', imgName: "gradient-3.jpg",
+                                    title: "Tests <br>de compétences".html_safe,
+                                    description: "Faites le point sur vos aptitudes." %>
+
+  </div>
+</div>
