@@ -35,20 +35,31 @@ class DashboardController < ApplicationController
     chatgpt_response = client.chat(parameters: {
         model: "gpt-4o-mini",
         messages: [
-          { role: "system", content: "Tu es un expert en orientation professionnelle." },
+          { role: "system", content: "Tu es un expert en orientation professionnelle, qui doit conseiller des enfants agés entre 14-22 ans." },
           { role: "user", content: "Analyse ces réponses du questionnaire : #{JSON.generate(@result)}.
             À partir des réponses de l'utilisateur au questionnaire, analyse ses préférences, ses compétences et ses
             aspirations pour définir un profil type. Fait une description détaillée et bienveillante. Evite les phrases
-            génériques et privilégie des phrases adaptées au profil. Identifie:
-            1. Le type de profil (exemple : 'Créatif et analytique', 'Leader et organisé', etc.). Ce type de profil doit
-             apparaitre en titre de la desciption.
-            2. Propose les domaines professionnels adaptés. Mets ces informations dans un paragraphe distinct. N'affiche
-             pas les scores.
-            3. Ajoute un conseil personnalisé. Mets ces conseils dans un paragraphe distinct.
-            Donne uniquement la description du profil. Adapte là en fonction des résultats. La description doit être
-            intégralement rédigée en maximum 200 mots. Indique mots importants en gras." }
+            génériques et privilégie des phrases adaptées au profil. Redige le texte comme suit:
+
+            <h4>Titre de la description</h4> : Le profil identifié (exemple : 'Créatif et analytique', 'Leader et
+            organisé', etc.). le titre de la description sera le profil identifié uniquement (n'ecris pas le mot
+            'profil').
+
+            ATTENTION : n'oublie pas de bien mettre les classes 'less-text' et 'more-text' pour que le texte s'affiche
+            correctement.
+
+            <p class='less-text'>Insère une description du profil (maximum 100 mots)</p>
+
+            <div class='more-text'>
+              <p>Propose les domaines professionnels adaptés. N'affiche pas les scores.</p>
+              <p>Ajoute un conseil personnalisé</p>
+            </div>
+
+            Donne uniquement la description du profil. Adapte là en fonction des résultats. La
+            description doit être intégralement rédigée en maximum 300 mots. Mets les mots importants dans des balises <b>.
+            " }
         ]
-    })
+      })
     @profile_description = chatgpt_response["choices"][0]["message"]["content"]
     @markdown_content = markdown_to_html(@profile_description)
   end
