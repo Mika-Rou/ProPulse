@@ -1,22 +1,25 @@
-<%= render 'shared/test_show', imgName: "gradient-1.jpg",
-                                imgIcon: "img-test-1.png",
-                                title: "Tests de personnalité",
-                                description: "Déterminez vos traits dominants et votre mode de fonctionnement." %>
-
-<div class="container testimonial my-5">
-  <h2 class="black pt-5 text-center">Propulse vous aide<br>à construire votre avenir</h2>
-
-  <div class="py-5 grid-3">
-
-    <%= render 'shared/testimonials', class: "span-1",
-                                      imgIcon: "avatar-1.png" %>
-    <%= render 'shared/testimonials', class: "span-1",
-                                      imgIcon: "avatar-2.png" %>
-    <%= render 'shared/testimonials', class: "span-1",
-                                      imgIcon: "avatar-3.png" %>
-  </div>
+<div class="container-fluid sticky-top z-0">
+  <%= render 'shared/test_show',  imgName: "gradient-1.jpg",
+                                  imgIcon: "img-test-1.png",
+                                  title: "Tests de personnalité",
+                                  description: "Déterminez vos traits dominants et votre mode de fonctionnement." %>
 </div>
 
-<div class="w-100 newsletter py-5">
+<div class="container-fluid testimonial">
+  <div class="container">
+    <h2 class="black pt-5 text-center">Propulse vous aide<br>à construire votre avenir</h2>
+
+    <div class="py-5 grid-3">
+
+      <%= render 'shared/testimonials', class: "span-1",
+                                        imgIcon: "avatar-1.png" %>
+      <%= render 'shared/testimonials', class: "span-1",
+                                        imgIcon: "avatar-2.png" %>
+      <%= render 'shared/testimonials', class: "span-1",
+                                        imgIcon: "avatar-3.png" %>
+    </div>
+  </div>
+</div>
+<div class="w-100 newsletter py-5 z-3">
   <%= render 'shared/newsletter' %>
 </div>

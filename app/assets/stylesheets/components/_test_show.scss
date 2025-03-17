@@ -1,68 +1,73 @@
-.hero-background{
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  align-content: center;
+.container-fluid{
+  padding: 0;
 
-  .grid-3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  .hero-background{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    align-content: center;
+    position: relative;
 
-    .span-2{
-      grid-column: span 2;
-    }
-
-    .span-1{
-      grid-column: span 1;
-    }
-
-    .label {
-      border-radius: 10rem;
-      padding: 12px 24px;
-    }
-  }
-
-  .hero-sticky{
-    background-color: $light-gray;
-    padding: 2rem;
-
-    .card-btn {
-      align-items: center;
-      flex-grow: 1;
+    .grid-3{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
 
-      .btn-principal-larg {
-        padding: 16px 32px;
-        background-color: $gray;
-        border-radius: 4px;
-        color: $light-gray;
-        text-decoration: none;
-        display: block;
-        text-align: center;
-        width: 100%;
-
-        &:hover {
-          background-color: $primary;
-          color: $light-gray
-        }
+      .span-2{
+        grid-column: span 2;
       }
 
-      .btn-principal-bord {
-        width: 100%;
-        border: 1px solid $gray;
-        padding: 16px 32px;
-        border-radius: 4px;
-        color: $gray;
-        text-decoration: none;
-        display: block;
-        text-align: center;
+      .span-1{
+        grid-column: span 1;
+      }
 
-        &:hover {
-          background-color: $primary;
+      .label {
+        border-radius: 10rem;
+        padding: 12px 24px;
+      }
+    }
+
+    .hero-sticky{
+      background-color: $light-gray;
+      padding: 2rem;
+
+      .card-btn {
+        align-items: center;
+        flex-grow: 1;
+        gap: 1rem;
+
+        .btn-principal-larg {
+          padding: 16px 32px;
+          background-color: $gray;
+          border-radius: 4px;
           color: $light-gray;
-          border: 1px solid $primary;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+          width: 100%;
+
+          &:hover {
+            background-color: $primary;
+            color: $light-gray
+          }
+        }
+
+        .btn-principal-bord {
+          width: 100%;
+          border: 1px solid $gray;
+          padding: 16px 32px;
+          border-radius: 4px;
+          color: $gray;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+
+          &:hover {
+            background-color: $primary;
+            color: $light-gray;
+            border: 1px solid $primary;
+          }
         }
       }
     }
