@@ -1,0 +1,8 @@
+.back-gray {
+  background-color: $gray;
+
+  .border-color{
+    border-top: solid 1px;
+    border-color: rgba($light-gray, 0.4);
+  }
+}
