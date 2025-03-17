@@ -15,6 +15,11 @@ module ProPulse
       generate.test_framework :test_unit, fixture: false
     end
 
+    config.to_prepare do
+      Devise::SessionsController.layout "white_mode"
+      Devise::RegistrationsController.layout "white_mode"
+    end
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
 

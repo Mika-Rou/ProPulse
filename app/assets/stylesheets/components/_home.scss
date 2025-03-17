@@ -67,6 +67,22 @@ body {
         background: #e64a19;
       }
     }
+
+    .btn-login-pwd{
+      display: inline-block;
+      padding: 12px 24px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+      margin-right: 10px;
+      border: 2px solid #ff5722;
+      
+      &:hover {
+        background: #e64a19;
+      }
+    }
   }
 
   .navbar {
