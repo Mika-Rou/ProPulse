@@ -1,27 +1,47 @@
-<div class="container w-25">
-  <h2>Sign up</h2>
+<div class="video-background bg-black z-0" style= "margin-bottom: -93px ;height: 100vh; position: relative; overflow: hidden;">
+  <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+    <source src="<%= asset_path('background.mp4') %>" type="video/mp4">
+    Votre navigateur ne supporte pas les vidéos HTML5.
+  </video>
+  <div class="overlay"></div>
+  <div class="container w-25 content" style="right: -20%;">
+    <h2>Inscrivez-vous</h2>
 
-  <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-    <%= f.error_notification %>
+    <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= f.error_notification %>
 
-    <div class="form-inputs">
-      <%= f.input :email,
-                  required: true,
-                  autofocus: true,
-                  input_html: { autocomplete: "email" }%>
-      <%= f.input :password,
-                  required: true,
-                  hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
-                  input_html: { autocomplete: "new-password" } %>
-      <%= f.input :password_confirmation,
-                  required: true,
-                  input_html: { autocomplete: "new-password" } %>
-    </div>
+      <div class="form-inputs">
+        <%= f.input :first_name, label: "Prénom",
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "first_name" }%>
+        <%= f.input :last_name, label: "Nom",
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "last_name" }%>
+        <%= f.input :email,
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "email" }%>
+        <%= f.input :password, label: "Mot de passe",
+                    required: true,
+                    hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
+                    input_html: { autocomplete: "new-password" } %>
+        <%= f.input :password_confirmation, label: "Confirmation du mot de passe",
+                    required: true,
+                    input_html: { autocomplete: "new-password" } %>
+      </div>
 
-    <div class="form-actions">
-      <%= f.button :submit, "Sign up" %>
-    </div>
-  <% end %>
+      <p style="font-size: 12px"><i>*En créant ce compte vous allez être redirigé vers un questionnaire qui servira à identifier votre profil.</i></p>
 
-  <%= render "devise/shared/links" %>
+      <div class="form-actions">
+        <%= f.button :submit, "Créer mon compte" %>
+      </div>
+    <% end %>
+
+
+
+    <%= render "devise/shared/links" %>
+  </div>
+    <%= image_tag 'logo.png', alt: 'logo', class:"rounded-circle object-fit-cover", style:"top: 33%; left:20%; position: absolute; width: 300px; height: 300px; margin-top: 10px" %>
 </div>
