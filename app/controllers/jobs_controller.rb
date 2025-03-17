@@ -16,6 +16,13 @@ class JobsController < ApplicationController
                                  .pluck(:name, :price)
                                  .to_h
 
+    @result = Choice.joins(:user_answers)
+                                        .where(user_answers: { user_id: current_user.id })
+                                        .includes(:category)
+                                        .group('categories.id')
+                                        .pluck("categories.name, sum(choices.score) as score_sum")
+                                        .to_h
+                                        
     @category_score = Category.joins(:choices).group("categories.name").sum("choices.score")
     respond_to do |format|
       format.turbo_stream do
