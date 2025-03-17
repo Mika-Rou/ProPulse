@@ -26,11 +26,12 @@
     <p class= "text-justify-center markdown-content">
       <%= @markdown_content %>
     </p>
+    <button type="button" class="btn btn-primary read-more-btn">Découvrir</button>
   </div>
 </div>
 
 <%# ! DASHBOARD %>
-<div class="container mt-5" style="height: 600px">
+<div class="container my-5" style="height: 700px">
   <div class="row gap-3 flex-nowrap w-100 my-3">
 
     <%# COLONNE 1 %>
@@ -43,3 +44,18 @@
     </div>
   </div>
 </div>
+
+<script>
+  const readMoreBtn = document.querySelector('.read-more-btn');
+  const text = document.querySelector('.more-text');
+
+  readMoreBtn.addEventListener('click', () => {
+    text.classList.toggle('more-text');
+    if (readMoreBtn.innerText === 'Découvrir') {
+      readMoreBtn.innerText = 'Réduire';
+
+    } else {
+      readMoreBtn.innerText = 'Découvrir';
+    }
+  });
+</script>

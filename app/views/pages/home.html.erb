@@ -1,18 +1,20 @@
-<div class="video-background bg-black mb-5" style="margin-top: -100px; height: 100vh; position: relative; overflow: hidden;">
+<div class="video-background bg-black mb-5" style="margin-top: -134px; height: 100vh; position: relative; overflow: hidden;">
   <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
     <source src="<%= asset_path('background.mp4') %>" type="video/mp4">
     Votre navigateur ne supporte pas les vidéos HTML5.
   </video>
   <div class="overlay"></div>
   <div data-controller="gsap" class="content">
+    <%= image_tag 'logo.png', alt: 'logo', class:"rounded-circle object-fit-cover me-2 mb-2", style:"width: 100px;" %>
     <h1 class="fade-in-title">ProPulse</h1>
-    <p class="fade-in-text">Trouve ta voie grâce à nos tests !</p>
+    <p class="fade-in-text my-0">Trouve ta voie et découvre</p>
+    <p class="fade-in-text my-0">des métiers faits pour toi !</p>
   </div>
 </div>
 
-<p class="text-white ms-3" style="margin-top: -100px"><i class="fa-solid fa-arrow-down"></i> Plus d'informations <i class="fa-solid fa-arrow-down"></i></p>
+<p class="text-white ms-3" style="margin-top: -104px"><i class="fa-solid fa-arrow-down"></i> Plus d'informations <i class="fa-solid fa-arrow-down"></i></p>
 
-<div class="container w-25 rounded-5" style="background-color: #f8f9fa; margin-top: -375px; position: absolute; right: 90px; opacity: 0.65;">
+<div class="container w-25 rounded-5" style="background-color: #f8f9fa; margin-top: -500px; position: absolute; right: 90px; opacity: 0.65;">
   <div class="bg-light p-3 rounded-3">
     <p class="mb-0">
       "Je ne savais pas du tout vers quel métier m’orienter après le BAC, et ce site m’a vraiment aidée à
@@ -24,7 +26,7 @@
     <hr>
     <div class="d-flex align-items-center">
       <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mdo" width="32" height="32" class="rounded-5 object-fit-cover me-2">
-      <p class="mb-1"><strong>John Doe</strong>, <i>18 ans</i>, élève en Terminal</p>
+      <p class="mb-1"><strong>Luc Arc</strong>, <i>18 ans</i>, élève en Terminal</p>
     </div>
   </div>
 </div>
@@ -44,33 +46,33 @@
     <div class="card text-bg-light mb-3" style="max-width: 18rem;">
       <p class="card-header">Étape 1</p>
       <div class="card-body">
-        <h4 class="card-title">Evaluation<br>de votre profil</h4>
+        <h4 class="card-title"><b>Evaluation</b><br>de votre <i>profil</i></h4>
         <p class="card-text">À travers des tests spécifiques, nous analysons vos traits de personnalité, vos centres d’intérêt et vos compétences.</p>
       </div>
     </div>
     <div class="card text-bg-light mb-3" style="max-width: 18rem;">
       <p class="card-header">Étape 2</p>
       <div class="card-body">
-        <h4 class="card-title">Analyse<br>des résultats</h4>
+        <h4 class="card-title"><b>Analyse</b><br>des <i>résultats</i></h4>
         <p class="card-text">Nos algorithmes comparent vos réponses avec des milliers de profils et de métiers pour identifier ceux qui vous correspondent le mieux.</p>
       </div>
     </div>
     <div class="card text-bg-light mb-3" style="max-width: 18rem;">
       <p class="card-header">Étape 3</p>
       <div class="card-body">
-        <h4 class="card-title">Recommandation<br>des métiers</h4>
+        <h4 class="card-title"><b>Suggestion</b><br>des <i>métiers</i></h4>
         <p class="card-text">Une liste de professions adaptées vous est proposée avec des informations détaillées sur chaque métier (salaires, débouchés, secteurs en tension, etc.).</p>
       </div>
     </div>
     <div class="card text-bg-light mb-3" style="max-width: 18rem;">
       <p class="card-header">Étape 4</p>
       <div class="card-body">
-        <h4 class="card-title">Accès<br>aux ressources</h4>
+        <h4 class="card-title"><b>Accès</b><br>aux <i>ressources</i></h4>
         <p class="card-text">Nous vous fournissons des liens vers des formations adaptées, des témoignages de professionnels et des outils pour affiner votre choix.</p>
       </div>
     </div>
   </div>
 </div>
 <div class="container d-flex justify-content-center w-25">
-  <button class="btn btn-outline-dark rounded-pill">Trouver mon test</button>
+    <%= link_to "Trouver mon test", tests_path, class:"btn btn-outline-dark rounded-pill" %>
 </div>
