@@ -1,0 +1,45 @@
+<div class="hero-background" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('<%= image_path imgName, height: 200, width: 200, crop: "fit" %>')">
+  <div class="container">
+
+    <div class="hero-section grid-3">
+      <div class="span-2 align-content-center">
+
+        <div class="hero-title d-flex gap-5">
+          <%= image_tag imgIcon, width: 150, height: 150, crop: :fit %>
+          <div class="flex-column">
+            <p class="d-inline-flex bg-white label">Test de personnalité</p>
+            <h1 class="white font-weight-bold pt-3"> <%= title %> </h1>
+
+            <div class="hero-content white mt-4">
+              <h5 class="inter">Préparez-vous à répondre aux questions !</h5>
+              <p class="hero-text pt-2">Prêt(e) à en découvrir un peu plus sur toi-même ? Ce test est fait pour t’aider à mieux te connaître, à comprendre tes préférences, ta façon de penser et peut-être même te surprendre !</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="hero-sticky border span-1">
+        <div class="hero-stars w-100 text-center">
+          <i class="fa-solid fa-star yellow"></i>
+          <i class="fa-solid fa-star yellow"></i>
+          <i class="fa-solid fa-star yellow"></i>
+          <i class="fa-solid fa-star yellow"></i>
+        </div>
+
+        <div class="hero-sticky-content">
+          <p class="m-0 mt-4 fs-6"><strong>Nombre de questions:</strong> 20</p>
+          <p class="m-0 fs-6"><strong>Temps estimée:</strong> 20 minutes</p>
+          <p class="mt-2">Cliquez sur « Lancer le test » pour commencer.</p>
+          <span class="d-flex gap-2 align-items-center text-decoration-underline"><i class="fa-solid fa-arrow-up-right-from-square"></i>Partagez le test à un ami</span>
+        </div>
+
+        <div class="card-btn d-flex flex-column align-items-center mt-5">
+          <a href="#" class="btn-principal-larg">Commencez le test</a>
+          <a href="#" class="btn-principal-bord">En savoir plus</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
