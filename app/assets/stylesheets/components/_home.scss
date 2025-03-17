@@ -76,6 +76,58 @@ body {
     }
   }
 
+  .content-login {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 90%;
+    max-width: 800px;
+
+    h1 {
+      font-size: 7rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: #e64a19;
+      }
+    }
+
+    .btn-login-pwd{
+      display: inline-block;
+      padding: 12px 24px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+      margin-right: 10px;
+      border: 2px solid #ff5722;
+
+      &:hover {
+        background: #e64a19;
+      }
+    }
+  }
+
   // .navbar {
   //   position: fixed;
   //   top: 0;
