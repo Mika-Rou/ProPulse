@@ -1,4 +1,4 @@
-<div class="card-test" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path imgName, height: 500, width:500, crop: "fit" %>')">
+<div class="card-test" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url('<%= image_path imgName, height: 500, width:500, crop: "fit" %>')">
 
     <p class="category-label">
       <%= @tests.count %> tests disponnibles
@@ -6,7 +6,8 @@
 
     <div class="card-test-content">
       <h3 class="title-inter"> <%= title %> </h3>
-      <p class="fs-5"><%= description %></p>
+
+      <p><%= description %></p>
       <%= link_to "Voir tous les tests", question_path(1), class:"btn-principal-white" %>
     </div>
 </div>

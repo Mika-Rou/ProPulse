@@ -1,0 +1,20 @@
+<div class="d-flex p-4 back-cards">
+
+  <div class="hor-card-img" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('<%= image_path imgName, height: 200, width: 200, crop: "fit" %>')">
+    <%= image_tag imgIcon, width: 150, height: 150, crop: :fit %>
+  </div>
+
+  <div class="category-card">
+    <div class="d-flex gap-2 labels">
+      <p class="border p-2 radius-1">Test de personnalité</p>
+    </div>
+    <h3 class="title-inter"> <%= title %> </h3>
+    <p class="w-70"><%= description %></p>
+  </div>
+
+  <div class="card-btn d-flex flex-column align-items-center">
+    <a href="#" class="btn-principal-larg">Commencez le test</a>
+    <a href="#" class="btn-principal-bord">En savoir plus</a>
+  </div>
+
+</div>

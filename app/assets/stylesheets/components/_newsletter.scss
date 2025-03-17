@@ -1,0 +1,18 @@
+.newsletter {
+  background-color: $gray;
+
+  .white {
+    color: $light-gray;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    margin-left: -8px;
+  }
+
+  .m16 {
+    margin-left: 1rem;
+    color: rgba($light-gray, 0.5);
+  }
+}

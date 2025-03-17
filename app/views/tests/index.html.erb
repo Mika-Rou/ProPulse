@@ -1,16 +1,47 @@
-<div class="container pt-2 pb-5">
-  <h1 class="mb-5">Quel <i>type</i> de <b>test</b><br>souhaitez-vous passer ?</h1>
+<div class="container">
+  <div class="py-5">
+    <h1 class="mb-5">Quel type de test<br>souhaitez-vous passer ?</h1>
 
-  <div class="test-grid gap-3 justify-content-between">
-    <%= render 'shared/main_cards', imgName: "gradient-1.jpg",
-                                    title: "Tests <br>de personnalité".html_safe,
-                                    description: "Déterminez vos traits dominants et votre mode de fonctionnement." %>
-    <%= render 'shared/main_cards', imgName: "gradient-2.jpg",
-                                    title: "Tests d’intérêts<br> profesionnels".html_safe,
-                                    description: "Identifiez les domaines qui vous motivent le plus." %>
-    <%= render 'shared/main_cards', imgName: "gradient-3.jpg",
-                                    title: "Tests <br>de compétences".html_safe,
-                                    description: "Faites le point sur vos aptitudes." %>
+    <div class="test-grid gap-3 justify-content-between">
+      <%= render 'shared/main_cards', imgName: "gradient-1.jpg",
+                                      title: "Tests <br>de personnalité".html_safe,
+                                      description: "Déterminez vos traits dominants et votre mode de fonctionnement." %>
+      <%= render 'shared/main_cards', imgName: "gradient-2.jpg",
+                                      title: "Tests d’intérêts<br> profesionnels".html_safe,
+                                      description: "Identifiez les domaines qui vous motivent le plus." %>
+      <%= render 'shared/main_cards', imgName: "gradient-3.jpg",
+                                      title: "Tests <br>de compétences".html_safe,
+                                      description: "Faites le point sur vos aptitudes." %>
 
+    </div>
   </div>
+  <div class="py-5">
+    <h1 class="mb-5 text-center">Sélectionnez<br>un test adapté à vos besoins</h1>
+
+    <div class="d-flex flex-column gap-4">
+      <%= render 'shared/hor_cards',  imgName: "gradient-1.jpg",
+                                      imgIcon: "img-test-1.png",
+                                      title: "Intelligences multiples",
+                                      description: "Ce test évalue vos talents dans différentes sphères pour mieux
+comprendre vos capacités d'apprentissage et de réflexion." %>
+      <%= render 'shared/hor_cards',  imgName: "gradient-3.jpg",
+                                      imgIcon: "img-test-3.png",
+                                      title: "Intelligences multiples",
+                                      description: "Ce test identifie comment vous dirigez et interagissez avec les autres,
+en révélant votre style de leadership." %>
+      <%= render 'shared/hor_cards',  imgName: "gradient-2.jpg",
+                                      imgIcon: "img-test-2.png",
+                                      title: "Intelligences multiples",
+                                      description: "Ce test identifie comment vous dirigez et interagissez avec les autres,
+en révélant votre style de leadership." %>
+      <%= render 'shared/hor_cards',  imgName: "gradient-1.jpg",
+                                      imgIcon: "img-test-4.png",
+                                      title: "Intelligences multiples",
+                                      description: "Ce test identifie comment vous dirigez et interagissez avec les autres,
+en révélant votre style de leadership." %>
+    </div>
+  </div>
+</div>
+<div class="w-100 newsletter py-5 mt-5">
+  <%= render 'shared/newsletter' %>
 </div>
