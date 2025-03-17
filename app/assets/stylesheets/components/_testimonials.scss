@@ -1,6 +1,13 @@
-.testimonial-content {
-  border-radius: 1rem;
-  border-color: $light-gray;
+.testimonial {
+  background-color: $light-gray;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .testimonial-content {
+    border-radius: 1rem;
+    border-color: $light-gray;
+  }
 }
 
 .grid-3 {
