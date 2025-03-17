@@ -1,80 +1,80 @@
-<div class="video-background bg-black mb-5" style="margin-top: -134px; height: 100vh; position: relative; overflow: hidden;">
+<div class="video-background bg-black mb-5" style="height: 100vh; position: relative; overflow: hidden;">
   <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
     <source src="<%= asset_path('background.mp4') %>" type="video/mp4">
     Votre navigateur ne supporte pas les vidéos HTML5.
   </video>
   <div class="overlay"></div>
-  <div data-controller="gsap" class="content">
+  <div data-controller="gsap" class="content container">
     <%= image_tag 'logo.png', alt: 'logo', class:"rounded-circle object-fit-cover me-2 mb-2", style:"width: 100px;" %>
-    <h1 class="fade-in-title">ProPulse</h1>
-    <p class="fade-in-text my-0">Trouve ta voie et découvre</p>
-    <p class="fade-in-text my-0">des métiers faits pour toi !</p>
+    <h4 class="fade-in-title inter">ProPulse</h4>
+    <h1 class="fade-in-text my-0 mt-3">Trouve ta voie et découvre</h1>
+    <h1 class="fade-in-text my-0">des métiers faits pour toi !</h1>
   </div>
-</div>
 
-<p class="text-white ms-3" style="margin-top: -104px"><i class="fa-solid fa-arrow-down"></i> Plus d'informations <i class="fa-solid fa-arrow-down"></i></p>
+  <p class="text-white ms-3 more-information d-flex gap-2 align-content-center"><i class="fa-solid fa-arrow-down"></i> Plus d'informations</p>
 
-<div class="container w-25 rounded-5" style="background-color: #f8f9fa; margin-top: -500px; position: absolute; right: 90px; opacity: 0.65;">
-  <div class="bg-light p-3 rounded-3">
-    <p class="mb-0">
-      "Je ne savais pas du tout vers quel métier m’orienter après le BAC, et ce site m’a vraiment aidée à
-       y voir plus clair ! Les tests sont bien conçus, les résultats sont précis et les informations sur
+  <div class="container w-25 rounded-5 home-testimonial p-5">
+    <div class="rounded-3">
+      <p class="mb-0">
+        "Je ne savais pas du tout vers quel métier m’orienter après le BAC, et ce site m’a vraiment aidée à
+        y voir plus clair ! Les tests sont bien conçus, les résultats sont précis et les informations sur
         chaque métier sont ultra-complètes. Grâce aux liens vers France Travail, j’ai pu voir quels secteurs
-         recrutent le plus. Maintenant, j’ai une idée claire de mon avenir et je sais quelles études choisir.
-          Un grand merci pour cet outil génial !"
+        recrutent le plus. Maintenant, j’ai une idée claire de mon avenir et je sais quelles études choisir.
+        Un grand merci pour cet outil génial !"
+      </p>
+      <div class="d-flex align-items-center mt-4">
+        <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mdo" width="56" height="56" class="rounded-circle object-fit-cover me-2">
+        <p class="mb-1"><strong>Luc Arc</strong><br><i>18 ans</i>, élève en Terminal</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid home-cards-section">
+  <div class="container text-center mt-5">
+    <h2 class="mb-3">Une approche <i><b>personnalisée</b></i><br>pour votre orientation</h2>
+    <p class="mb-5">
+      Notre plateforme repose sur une méthode structurée et éprouvée pour vous guider<br>
+      dans votre orientation. Voici comment nous procédons :
     </p>
-    <hr>
-    <div class="d-flex align-items-center">
-      <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="mdo" width="32" height="32" class="rounded-5 object-fit-cover me-2">
-      <p class="mb-1"><strong>Luc Arc</strong>, <i>18 ans</i>, élève en Terminal</p>
-    </div>
   </div>
-</div>
 
-<div class="container text-center mt-5">
-  <h2 class="mb-3">Une approche <i>personnalisée</i> pour votre <b>orientation</b></h2>
-  <p class="mb-5">
-    Notre plateforme repose sur une méthode structurée et éprouvée pour vous guider<br>
-    dans votre orientation. Voici comment nous procédons :
-  </p>
-</div>
-
-
-
-<div class="container mb-4">
-  <div class="d-flex justify-content-between flex-wrap">
-    <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-      <p class="card-header">Étape 1</p>
-      <div class="card-body">
-        <h4 class="card-title"><b>Evaluation</b><br>de votre <i>profil</i></h4>
-        <p class="card-text">À travers des tests spécifiques, nous analysons vos traits de personnalité, vos centres d’intérêt et vos compétences.</p>
+  <div class="container mb-4">
+    <div class="home-card">
+      <div class="cards-radius card mb-3 span-1 p-4 d-flex flex-column justify-content-between">
+        <p>Étape 1</p>
+        <div class="mt-5">
+          <h4 class="card-title pb-2"><b>Evaluation</b><br>de votre <i>profil</i></h4>
+          <p class="card-text">À travers des tests spécifiques, nous analysons vos traits de personnalité, vos centres d’intérêt et vos compétences.</p>
+        </div>
       </div>
-    </div>
-    <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-      <p class="card-header">Étape 2</p>
-      <div class="card-body">
-        <h4 class="card-title"><b>Analyse</b><br>des <i>résultats</i></h4>
-        <p class="card-text">Nos algorithmes comparent vos réponses avec des milliers de profils et de métiers pour identifier ceux qui vous correspondent le mieux.</p>
+      <div class="cards-radius card mb-3 span-1 p-4 d-flex flex-column justify-content-between">
+        <p>Étape 2</p>
+        <div class="mt-5">
+          <h4 class="card-title pb-2"><b>Analyse</b><br>des <i>résultats</i></h4>
+          <p class="card-text">Nos algorithmes comparent vos réponses avec des milliers de profils et de métiers pour identifier ceux qui vous correspondent le mieux.</p>
+        </div>
       </div>
-    </div>
-    <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-      <p class="card-header">Étape 3</p>
-      <div class="card-body">
-        <h4 class="card-title"><b>Suggestion</b><br>des <i>métiers</i></h4>
-        <p class="card-text">Une liste de professions adaptées vous est proposée avec des informations détaillées sur chaque métier (salaires, débouchés, secteurs en tension, etc.).</p>
+      <div class="cards-radius card mb-3 span-1 p-4 d-flex flex-column justify-content-between">
+        <p>Étape 3</p>
+        <div class="mt-5">
+          <h4 class="card-title pb-2"><b>Suggestion</b><br>des <i>métiers</i></h4>
+          <p class="card-text">Une liste de professions adaptées vous est proposée avec des informations détaillées sur chaque métier (salaires, débouchés, secteurs en tension, etc.).</p>
+        </div>
       </div>
-    </div>
-    <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-      <p class="card-header">Étape 4</p>
-      <div class="card-body">
-        <h4 class="card-title"><b>Accès</b><br>aux <i>ressources</i></h4>
-        <p class="card-text">Nous vous fournissons des liens vers des formations adaptées, des témoignages de professionnels et des outils pour affiner votre choix.</p>
+      <div class="cards-radius card mb-3 span-1 p-4 d-flex flex-column justify-content-between">
+        <p>Étape 4</p>
+        <div class="mt-5">
+          <h4 class="card-title pb-2"><b>Accès</b><br>aux <i>ressources</i></h4>
+          <p class="card-text">Nous vous fournissons des liens vers des formations adaptées, des témoignages de professionnels et des outils pour affiner votre choix.</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container d-flex justify-content-center w-25">
-  <%= link_to "Trouver mon test", tests_path, class:"btn btn-outline-dark rounded-pill" %>
+  <div class="container d-flex justify-content-center w-25">
+    <%= link_to "Trouver mon test", tests_path, class:"btn-principal mt-4" %>
+  </div>
 </div>
 <div class="w-100 newsletter py-5">
   <%= render 'shared/newsletter' %>
