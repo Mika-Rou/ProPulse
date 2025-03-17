@@ -1,11 +1,11 @@
 body {
   background-color: rgba($light-gray, 1); // Utilise la fonction rgby pour ajouter de l'opacité
 }
+
 .video-background {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
   height: 100vh;
   overflow: hidden;
   z-index: -1; // Place la vidéo en arrière-plan
@@ -34,23 +34,14 @@ body {
 
   // Contenu affiché SUR la vidéo
   .content {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: 90%;
-    max-width: 800px;
+    color: $light-gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 
-    h1 {
-      font-size: 7rem;
-      margin-bottom: 2rem;
-      font-weight: bold;
-    }
-
-    p {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
+    & img {
+      display: none;
     }
 
     .btn {
@@ -85,25 +76,68 @@ body {
     }
   }
 
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8); // Fond semi-transparent
-    backdrop-filter: blur(10px); // Effet de flou pour un look moderne
-    color: white;
-    padding: 15px 30px;
-    z-index: 1000; // S'assure que la navbar est AU-DESSUS de la vidéo
+  // .navbar {
+  //   position: fixed;
+  //   top: 0;
+  //   width: 100%;
+  //   background: rgba(0, 0, 0, 0.8); // Fond semi-transparent
+  //   backdrop-filter: blur(10px); // Effet de flou pour un look moderne
+  //   color: white;
+  //   padding: 15px 30px;
+  //   z-index: 1000; // S'assure que la navbar est AU-DESSUS de la vidéo
 
-    a {
-      color: white !important; // Force la couleur du texte des liens
-      font-weight: bold;
-      text-decoration: none;
-      transition: color 0.3s ease;
+  //   a {
+  //     color: white !important; // Force la couleur du texte des liens
+  //     text-decoration: none;
+  //     transition: color 0.3s ease;
 
-      &:hover {
-        color: #ff5722; // Change la couleur au survol
-      }
-    }
+  //     &:hover {
+  //       color: #ff5722; // Change la couleur au survol
+  //     }
+  //   }
+  // }
+}
+
+
+
+.more-information {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.cards-radius {
+  border-radius: 1rem;
+}
+
+.home-testimonial{
+  background-color: $light-gray;
+  position: absolute;
+  bottom: 56px;
+  right: 56px;
+  opacity: .8;
+}
+
+.home-cards-section{
+  margin: 10rem 0 10rem 0;
+
+  .home-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+.btn-principal {
+  padding: 16px 32px;
+  border: 1px solid $gray;
+  border-radius: 4px;
+  color: $gray;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $primary;
+    border: 1px solid $primary;
+    color: $light-gray;
   }
 }
