@@ -184,7 +184,8 @@ body {
   padding: 16px 32px;
   border: 1px solid $gray;
   border-radius: 4px;
-  color: $gray;
+  background-color: $gray;
+  color: $light-gray;
   text-decoration: none;
 
   &:hover {

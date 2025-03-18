@@ -16,4 +16,18 @@
     margin-left: 1rem;
     color: rgba($light-gray, 0.5);
   }
+
+  .btn-principal-outline-white {
+    padding: 16px 32px;
+    border: 1px solid $light-gray;
+    border-radius: 4px;
+    color: $light-gray;
+    text-decoration: none;
+
+  &:hover {
+    background-color: $primary;
+    border: 1px solid $primary;
+    color: $light-gray;
+  }
+}
 }
