@@ -17,7 +17,7 @@ class QualifyValueService
 
       ]
       })
-      
+
       answers = JSON.parse(chatgpt_response["choices"][0]["message"]["content"])
       answers.each do |key, value|
         cat = Category.find_by(name: key)
