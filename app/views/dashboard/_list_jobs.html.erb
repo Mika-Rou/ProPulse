@@ -1,5 +1,12 @@
-<div class="list-group">
+<%# <div class="list-group">
   <% jobs.first(10).each do |job| %>
-  <%= link_to job.name, job_path(job, format: :turbo_stream ), data: {turbo_stream: ""}, class: "list-group-item list-group-item-action list-group-item-light mb-2 rounded-4" %>
+  <%#= link_to job.name, job_path(job, format: :turbo_stream ), data: {turbo_stream: ""}, class: "list-group-item list-group-item-action list-group-item-light mb-2 rounded-4" %>
+  <%# end %>
+<%# </div> %>
+<div class="list-group">
+  <% if @suggested_jobs.any? %>
+    <% @suggested_jobs.each do |job| %>
+      <%= link_to job["name"], job_path(job, format: :turbo_stream ), data: {turbo_stream: ""}, class: "list-group-item list-group-item-action list-group-item-primary mb-2 rounded-4" %>
+    <% end %>
   <% end %>
 </div>
