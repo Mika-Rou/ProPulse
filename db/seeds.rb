@@ -30,7 +30,7 @@ category << Category.create!(
 )
 
 category << Category.create!(
-  name: "Réaliste"
+  name: "Realiste"
 )
 
 category << Category.create!(
