@@ -10,14 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_03_10_155645) do
+ActiveRecord::Schema[7.1].define(version: 2025_03_18_115733) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "vector"
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "category_values", force: :cascade do |t|
+    t.string "typeable_type", null: false
+    t.bigint "typeable_id", null: false
+    t.bigint "category_id", null: false
+    t.integer "value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_category_values_on_category_id"
+    t.index ["typeable_type", "typeable_id"], name: "index_category_values_on_typeable"
   end
 
   create_table "choices", force: :cascade do |t|
@@ -66,6 +78,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_03_10_155645) do
     t.string "url_job"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.vector "embedding", limit: 1536
   end
 
   create_table "questions", force: :cascade do |t|
@@ -112,6 +125,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_03_10_155645) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "category_values", "categories"
   add_foreign_key "choices", "categories"
   add_foreign_key "choices", "questions"
   add_foreign_key "job_categories", "categories"

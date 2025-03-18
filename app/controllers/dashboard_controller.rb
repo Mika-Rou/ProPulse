@@ -26,11 +26,11 @@ class DashboardController < ApplicationController
     client = OpenAI::Client.new(access_token: ENV["OPENAI_ACCESS_TOKEN"])
 
     @result = Choice.joins(:user_answers)
-                                    .where(user_answers: { user_id: current_user.id })
-                                    .includes(:category)
-                                    .group('categories.id')
-                                    .pluck("categories.name, sum(choices.score) as score_sum")
-                                    .to_h
+                    .where(user_answers: { user_id: current_user.id })
+                    .includes(:category)
+                    .group('categories.id')
+                    .pluck("categories.name, sum(choices.score) as score_sum")
+                    .to_h
 
     chatgpt_response = client.chat(parameters: {
         model: "gpt-4o-mini",
@@ -73,7 +73,7 @@ class DashboardController < ApplicationController
       })
     @profile_description = chatgpt_response["choices"][0]["message"]["content"]
     @markdown_content = markdown_to_html(@profile_description)
-
+    
     job_suggestion_response = client.chat(parameters: {
       model: "gpt-4o-mini",
       messages: [
@@ -101,7 +101,7 @@ class DashboardController < ApplicationController
 
           Ne renvoie **rien d’autre** que cet objet JSON." }
       ]
-    })
+        })
 
     begin
       parsed_response = JSON.parse(job_suggestion_response["choices"][0]["message"]["content"]) rescue {}
@@ -109,6 +109,7 @@ class DashboardController < ApplicationController
     rescue JSON::ParserError
       @suggested_jobs = []
     end
+      @suggested_job = Job.find_by(name: @suggested_jobs[0].first[1])
   end
 
   def update
