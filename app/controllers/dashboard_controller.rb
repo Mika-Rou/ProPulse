@@ -73,6 +73,42 @@ class DashboardController < ApplicationController
       })
     @profile_description = chatgpt_response["choices"][0]["message"]["content"]
     @markdown_content = markdown_to_html(@profile_description)
+
+    job_suggestion_response = client.chat(parameters: {
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: "Tu es un expert en orientation professionnelle qui conseille des jeunes de 14 à 22 ans." },
+        { role: "user", content: "Analyse ces résultats du questionnaire : #{JSON.generate(@result)}.
+          - Propose **exactement 10 métiers** qui correspondent à son profil.
+          - Retourne uniquement un objet JSON avec la structure suivante :
+
+          {
+            \"profile\": \"[TITRE]\",
+            \"description\": \"[DESCRIPTION]\",
+            \"jobs\": [
+              {\"name\": \"[Nom du métier 1]\"},
+              {\"name\": \"[Nom du métier 2]\"},
+              {\"name\": \"[Nom du métier 3]\"},
+              {\"name\": \"[Nom du métier 4]\"},
+              {\"name\": \"[Nom du métier 5]\"},
+              {\"name\": \"[Nom du métier 6]\"},
+              {\"name\": \"[Nom du métier 7]\"},
+              {\"name\": \"[Nom du métier 8]\"},
+              {\"name\": \"[Nom du métier 9]\"},
+              {\"name\": \"[Nom du métier 10]\"}
+            ]
+          }
+
+          Ne renvoie **rien d’autre** que cet objet JSON." }
+      ]
+    })
+
+    begin
+      parsed_response = JSON.parse(job_suggestion_response["choices"][0]["message"]["content"]) rescue {}
+      @suggested_jobs = parsed_response["jobs"] || []
+    rescue JSON::ParserError
+      @suggested_jobs = []
+    end
   end
 
   def update

@@ -37,10 +37,10 @@
     <%# COLONNE 1 %>
     <div class="col-4 text-start border border-black rounded-4 pt-3">
       <h5 class="text-end">TOP 10 métiers</h5>
-      <%= render 'dashboard/list_jobs', jobs: @jobs %>
+      <%= render 'dashboard/list_jobs', jobs: @suggested_jobs %>
     </div>
     <div class="col-8">
-      <%= render 'jobs/jobs_details', job: @job, formation_for_job: @formations_for_job %>
+      <%= render 'jobs/jobs_details', job: @suggested_jobs[0], formation_for_job: @formations_for_job %>
     </div>
   </div>
 </div>
