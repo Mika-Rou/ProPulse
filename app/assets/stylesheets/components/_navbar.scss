@@ -1,0 +1,13 @@
+.blend-mode {
+  mix-blend-mode: difference;
+}
+
+.title-hover {
+  text-decoration: none;
+  font-size: 1rem; // Initial font size
+  &:hover {
+    transform: scale(0.5);
+    font-size: 0.5rem; // Increase font size on hover
+    color: red
+  }
+}
