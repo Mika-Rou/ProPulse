@@ -10,7 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_03_18_115733) do
+ActiveRecord::Schema[7.1].define(version: 2025_03_18_091924) do
+
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "vector"
@@ -97,6 +98,9 @@ ActiveRecord::Schema[7.1].define(version: 2025_03_18_115733) do
     t.integer "nb_questions"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "img_name"
+    t.string "img_icon"
+    t.string "description"
   end
 
   create_table "user_answers", force: :cascade do |t|
