@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   resources :user_answers, only: [:create]
   resources :dashboard, only: %i[show update]
   resources :tests, only: %i[index show]
+  get :filter_by_category, to: "tests#filter_by_category"
   resources :questions, only: %i[show]
   resources :jobs, only: %i[show]
 

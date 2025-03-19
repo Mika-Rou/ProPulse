@@ -1,0 +1,9 @@
+<%= turbo_frame_tag :tests_by_category, 'data-autoblock-scroll': 'end' do %>
+
+  <div class="d-flex flex-column gap-3">
+    <% tests.each do |test| %>
+      <%= render 'shared/hor_cards', test: test %>
+    <% end %>
+  </div>
+
+<% end %>

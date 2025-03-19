@@ -158,9 +158,12 @@ choices << Choice.create!(
 
 tests << Test.create!(
   name: "Focus Avenir : trouve ta voie",
-  category: "intérêts professionnels",
+  category: "Tests d'intérêts professionnels",
   duration: 10,
-  nb_questions: 5
+  nb_questions: 5,
+  img_name: "gradient-1.jpg",
+  img_icon: "img-test-1.png",
+  description: "Découvre le métier fait pour toi ! En 5 questions et 10 minutes, identifie les domaines pro qui te correspondent et clarifie tes aspirations."
 )
 
 questions << Question.create!(
@@ -5465,7 +5468,75 @@ JobFormation.create!(
 )
 #! FIN Seed Jobs -------------------#########
 
+tests << Test.create!(
+  name: "Cap Métier : trouve ta voie idéale",
+  category: "Tests de personnalité",
+  duration: 20,
+  nb_questions: 40,
+  img_name: "gradient-3.jpg",
+  img_icon: "img-test-1.png",
+  description: "Fais le point sur tes motivations profondes et découvre le métier fait pour toi. 40 questions pour t'aider à définir un avenir professionnel qui te ressemble !"
+)
 
+tests << Test.create!(
+  name: "Profil Pro : révèle ton potentiel",
+  category: "Tests de personnalité",
+  duration: 10,
+  nb_questions: 25,
+  img_name: "gradient-3.jpg",
+  img_icon: "img-test-2.png",
+  description: "Analyse tes centres d’intérêt en 25 questions et trouve les secteurs qui te correspondent le mieux. Une étape clé pour affiner ton projet pro !"
+)
+
+tests << Test.create!(
+  name: "Bilan Express : découvre ta voie",
+  category: "Tests<br> de personnalité".html_safe,
+  duration: 9,
+  nb_questions: 0,
+  img_name: "gradient-3.jpg",
+  img_icon: "img-test-3.png",
+  description: "Un test rapide pour faire le point et identifier la voie pro qui te correspond le mieux en seulement 15 questions."
+)
+
+tests << Test.create!(
+  name: "Vos talents en action",
+  category: "Tests de compétence",
+  duration: 10,
+  nb_questions: 25,
+  img_name: "gradient-2.jpg",
+  img_icon: "img-test-1.png",
+  description: "Fais le point sur tes compétences en 25 questions ! Identifie tes points forts et découvre les métiers où tes talents feront la différence."
+)
+
+tests << Test.create!(
+  name: "Cartographie de vos talents",
+  category: "Tests<br> de compétence".html_safe,
+  duration: 15,
+  nb_questions: 0,
+  img_name: "gradient-2.jpg",
+  img_icon: "img-test-4.png",
+  description: "Analyse tes aptitudes et valorise tes talents ! Un test complet pour mieux te connaître et orienter ta carrière selon tes compétences."
+)
+
+tests << Test.create!(
+  name: "Boussole des métiers",
+  category: "Tests d'intérêts professionnels",
+  duration: 25,
+  nb_questions: 30,
+  img_name: "gradient-1.jpg",
+  img_icon: "img-test-3.png",
+  description: "Trouve la direction professionnelle qui te ressemble ! Ce test rapide t'aide à identifier les secteurs alignés avec tes intérêts."
+)
+
+tests << Test.create!(
+  name: "Passions & Métiers",
+  category: "Tests d'intérêts <br>professionnels".html_safe,
+  duration: 15,
+  nb_questions: 0,
+  img_name: "gradient-1.jpg",
+  img_icon: "img-test-4.png",
+  description: "Transforme tes passions en métier ! En quelques questions, découvre les domaines où tu pourras t’épanouir professionnellement."
+)
 
 
 
