@@ -1,13 +1,17 @@
 <%= turbo_frame_tag :job_description do %>
-  <%# ! COLONNE 2 %>
-    <%# ! JOB DESCRIPTION %>
-    <div class="row span-1 h-100">
-      <div class="text-start">
-        <div class="d-flex flex-column justify-content-between h-100">
-          <%= render 'jobs/description', job: job %>
-
-      <%# ! FORMATIONS DISPONIBLES %>
-        <%= render 'jobs/formation'%>
+<%# ! COLONNE 2 %>
+<%# ! JOB DESCRIPTION %>
+  <div class="row span-2 h-100 ">
+    <div class="text-start">
+      <div class="d-flex gap-2 h-100">
+        <div  class="d-flex flex-column justify-content-between h-100">
+          <%= render 'jobs/description', job: job%>
+          <%# ! FORMATIONS DISPONIBLES %>
+          <%= render 'jobs/formation'%>
+        </div>
+        <%= render 'jobs/jobs_price', job: job%>
       </div>
     </div>
+  </div>
+
 <% end %>

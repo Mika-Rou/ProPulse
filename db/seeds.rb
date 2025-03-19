@@ -388,7 +388,7 @@ formations << Formation.create!(
   name: "Diplôme en Design Graphique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-metier/metiers/designer-graphique"
 )
 JobFormation.create!(
@@ -437,7 +437,7 @@ formations << Formation.create!(
   name: "Licence Arts Visuels",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/formation/les-principaux-domaines-de-formation/les-licences-d-art/la-licence-arts-plastiques"
 )
 JobFormation.create!(
@@ -496,7 +496,7 @@ formations << Formation.create!(
   name: "Master Design d'Espace et Architecture Intérieure",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dn-made-mention-espace"
 )
 JobFormation.create!(
@@ -550,7 +550,7 @@ formations << Formation.create!(
   name: "Diplôme de l'École de la Chambre Syndicale de la Couture Parisienne",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "http://www.ifmparis.fr"
 )
 JobFormation.create!(
@@ -600,7 +600,7 @@ formations << Formation.create!(
   name: "Diplôme National des Métiers d’Art et du Design (DN MADE) spécialité Photographie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/le-dn-made"
 )
 JobFormation.create!(
@@ -636,7 +636,7 @@ formations << Formation.create!(
   name: "Licence Cinéma et Audiovisuel",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/licence-mention-cinema-et-audiovisuel"
 )
 JobFormation.create!(
@@ -660,7 +660,7 @@ formations << Formation.create!(
   name: "École Nationale Supérieure des Métiers de l'Image et du Son (Fémis) - Département Scénario",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/structures-enseignement/ile-de-france/paris/la-femis-ecole-nationale-superieure-des-metiers-de-l-image-et-du-son/diplome-de-l-ecole-nationale-superieure-des-metiers-de-l-image-et-du-son-femis-specialite-scenario"
 )
 JobFormation.create!(
@@ -691,7 +691,7 @@ formations << Formation.create!(
   name: "Diplôme National Supérieur Professionnel de Musicien (DNSPM)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/diplome-national-superieur-professionnel-de-musicien-discipline-chef-d-ensemble-instrumentaux-ou-vocaux"
 )
 JobFormation.create!(
@@ -703,7 +703,7 @@ formations << Formation.create!(
   name: "Licence Musicologie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/licence-mention-musicologie"
 )
 JobFormation.create!(
@@ -758,7 +758,7 @@ formations << Formation.create!(
   name: "Diplôme National des Métiers d’Art et du Design (DN MADE) spécialité Objet",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dn-made-mention-objet"
 )
 JobFormation.create!(
@@ -819,7 +819,7 @@ formations << Formation.create!(
   name: "Diplôme Supérieur d’Arts Appliqués (DSAA) spécialité Design et Communication",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dsaa-design-mention-graphisme"
 )
 JobFormation.create!(
@@ -861,7 +861,7 @@ formations << Formation.create!(
   name: "Diplôme National des Métiers d’Art et du Design (DN MADE) spécialité Espace",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dn-made-mention-espace"
 )
 JobFormation.create!(
@@ -900,7 +900,7 @@ formations << Formation.create!(
   name: "CAP Esthétique, Cosmétique, Parfumerie option Maquillage",
   level: "Bac",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-esthetique-cosmetique-parfumerie"
 )
 JobFormation.create!(
@@ -954,7 +954,7 @@ formations << Formation.create!(
   name: "Diplôme des Métiers d’Art (DMA) Costumier-Réalisateur",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.orientation.com/diplomes/dma-costumier-realisateur"
 )
 JobFormation.create!(
@@ -1022,7 +1022,7 @@ formations << Formation.create!(
   name: "Diplôme National des Métiers d’Art et du Design (DN MADE) spécialité Graphisme et Motion Design",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dn-made-mention-graphisme"
 )
 JobFormation.create!(
@@ -1077,7 +1077,7 @@ formations << Formation.create!(
   name: "Diplôme des Métiers d'Art (DMA) Cinéma d'Animation",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/dn-made-mention-animation"
 )
 JobFormation.create!(
@@ -1116,7 +1116,7 @@ formations << Formation.create!(
   name: "CAP Tournage en Céramique",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-tournage-en-ceramique"
 )
 JobFormation.create!(
@@ -1128,7 +1128,7 @@ formations << Formation.create!(
   name: "Diplôme des Métiers d'Art (DMA) Arts de la Céramique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.orientation.com/diplomes/dma-arts-textiles-et-ceramiques-option-ceramique-artisanale"
 )
 JobFormation.create!(
@@ -1233,7 +1233,7 @@ formations << Formation.create!(
   name: "Diplôme en Arts Appliqués spécialité Dessin et Illustration",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/le-dn-made#:~:text=Le%20DN%20MADE%20(dipl%C3%B4me%20national,et%20une%20individualisation%20du%20parcours."
 )
 JobFormation.create!(
@@ -1245,7 +1245,7 @@ formations << Formation.create!(
   name: "CAP Dessinateur en Arts Graphiques Imprimés",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-signaletique-et-decors-graphiques"
 )
 JobFormation.create!(
@@ -1272,7 +1272,7 @@ formations << Formation.create!(
   name: "CAP Maintenance des Véhicules option Voitures Particulières",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-maintenance-des-vehicules-option-a-voitures-particulieres"
 )
 JobFormation.create!(
@@ -1284,7 +1284,7 @@ formations << Formation.create!(
   name: "Bac Pro Maintenance des Véhicules",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-maintenance-des-vehicules-option-a-voitures-particulieres"
 )
 JobFormation.create!(
@@ -1296,7 +1296,7 @@ formations << Formation.create!(
   name: "BTS Maintenance des Véhicules option Voitures Particulières",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-maintenance-des-vehicules-option-a-voitures-particulieresc"
 )
 JobFormation.create!(
@@ -1323,7 +1323,7 @@ formations << Formation.create!(
   name: "CAP Électricien",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-electricien"
 )
 JobFormation.create!(
@@ -1335,7 +1335,7 @@ formations << Formation.create!(
   name: "Bac Pro Métiers de l'Électricité et de ses Environnements Connectés (MELEC)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-metiers-de-l-electricite-et-de-ses-environnements-connectes"
 )
 JobFormation.create!(
@@ -1347,7 +1347,7 @@ formations << Formation.create!(
   name: "BTS Électrotechnique",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-electrotechnique"
 )
 JobFormation.create!(
@@ -1374,7 +1374,7 @@ formations << Formation.create!(
   name: "CAP Installateur Sanitaire",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-monteur-en-installations-sanitaires"
 )
 JobFormation.create!(
@@ -1386,7 +1386,7 @@ formations << Formation.create!(
   name: "Bac Pro Technicien en Installation des Systèmes Énergétiques et Climatiques (TISEC)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-installateur-en-chauffage-climatisation-et-energies-renouvelables"
 )
 JobFormation.create!(
@@ -1398,7 +1398,7 @@ formations << Formation.create!(
   name: "BP Monteur en Installations de Génie Climatique et Sanitaire",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bp-monteur-en-installations-du-genie-climatique-et-sanitaire"
 )
 JobFormation.create!(
@@ -1425,7 +1425,7 @@ formations << Formation.create!(
   name: "CAP Charpentier Bois",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-charpentier-bois"
 )
 JobFormation.create!(
@@ -1437,7 +1437,7 @@ formations << Formation.create!(
   name: "Bac Pro Technicien Constructeur Bois",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-technicien-constructeur-bois"
 )
 JobFormation.create!(
@@ -1449,7 +1449,7 @@ formations << Formation.create!(
   name: "BP Charpentier",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bp-charpentier-bois"
 )
 JobFormation.create!(
@@ -1476,7 +1476,7 @@ formations << Formation.create!(
   name: "CAP Maçon",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-macon#:~:text=Il%20est%20form%C3%A9%20pour%20intervenir,fabriquer%20et%20utiliser%20des%20b%C3%A9tons."
 )
 JobFormation.create!(
@@ -1488,7 +1488,7 @@ formations << Formation.create!(
   name: "Bac Pro Interventions sur le Patrimoine Bâti (option Maçonnerie)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-interventions-sur-le-patrimoine-bati-option-a-maconnerie"
 )
 JobFormation.create!(
@@ -1500,7 +1500,7 @@ formations << Formation.create!(
   name: "BP Maçon",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bp-macon"
 )
 JobFormation.create!(
@@ -1527,7 +1527,7 @@ formations << Formation.create!(
   name: "CAP Réalisation en Chaudronnerie Industrielle",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-realisations-industrielles-en-chaudronnerie-ou-soudage-option-a-chaudronnerie"
 )
 JobFormation.create!(
@@ -1539,7 +1539,7 @@ formations << Formation.create!(
   name: "Bac Pro Technicien en Chaudronnerie Industrielle",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-technicien-en-chaudronnerie-industrielle"
 )
 JobFormation.create!(
@@ -1551,7 +1551,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Soudeur Assembleur Industriel",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.francecompetences.fr/recherche/rncp/34502/"
 )
 JobFormation.create!(
@@ -1583,7 +1583,7 @@ formations << Formation.create!(
   name: "Bac Pro Maintenance des Équipements Industriels",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.francecompetences.fr/recherche/rncp/3632/"
 )
 JobFormation.create!(
@@ -1595,7 +1595,7 @@ formations << Formation.create!(
   name: "BTS Maintenance des Systèmes option Systèmes de Production",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "BTS Maintenance des Systèmes option Systèmes de Production"
 )
 JobFormation.create!(
@@ -1607,7 +1607,7 @@ formations << Formation.create!(
   name: "Licence Pro Maintenance et Technologie : systèmes industriels, production et énergie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/licence-pro-mention-maintenance-des-systemes-industriels-de-production-et-d-energie"
 )
 JobFormation.create!(
@@ -1639,7 +1639,7 @@ formations << Formation.create!(
   name: "BTS Bâtiment",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-batiment"
 )
 JobFormation.create!(
@@ -1651,7 +1651,7 @@ formations << Formation.create!(
   name: "Licence Pro Métiers du BTP : Génie Civil et Construction",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.francecompetences.fr/recherche/rncp/30142/"
 )
 JobFormation.create!(
@@ -1663,7 +1663,7 @@ formations << Formation.create!(
   name: "Master Ingénierie et Management de la Construction",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.masteretudes.fr/master/ingenierie-de-la-construction"
 )
 JobFormation.create!(
@@ -1698,7 +1698,7 @@ formations << Formation.create!(
   name: "BTS Conception et Réalisation en Chaudronnerie Industrielle",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-conception-et-realisation-en-chaudronnerie-industrielle"
 )
 JobFormation.create!(
@@ -1735,7 +1735,7 @@ formations << Formation.create!(
   name: "BTS Fluides, Énergies, Domotique (FED) option B : Génie Climatique et Fluidique",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-fluides-energies-domotique-option-b-froid-et-conditionnement-d-air"
 )
 JobFormation.create!(
@@ -1747,7 +1747,7 @@ formations << Formation.create!(
   name: "Licence Pro Énergies Renouvelables et Efficacité Énergétique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/structures-enseignement/ile-de-france/val-de-marne/iut-de-creteil-vitry-site-de-creteil-universite-paris-est-creteil-val-de-marne/licence-pro-mention-metiers-de-l-energetique-de-l-environnement-et-du-genie-climatique"
 )
 JobFormation.create!(
@@ -1778,7 +1778,7 @@ formations << Formation.create!(
   name: "CAP Aéronautique option Systèmes",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.francecompetences.fr/recherche/rncp/17483/"
 )
 JobFormation.create!(
@@ -1790,7 +1790,7 @@ formations << Formation.create!(
   name: "Bac Pro Aéronautique option Systèmes",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-aeronautique-option-systemes"
 )
 JobFormation.create!(
@@ -1802,7 +1802,7 @@ formations << Formation.create!(
   name: "BTS Aéronautique",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-aeronautique"
 )
 JobFormation.create!(
@@ -1829,7 +1829,7 @@ formations << Formation.create!(
   name: "CAP Métiers de l'Agriculture option Travaux Paysagers",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.francecompetences.fr/recherche/rncp/2756/#:~:text=Le%20titulaire%20du%20certificat%20d,piquetage%2C%20mise%20en%20forme)."
 )
 JobFormation.create!(
@@ -1841,7 +1841,7 @@ formations << Formation.create!(
   name: "Bac Pro Aménagements Paysagers",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-amenagements-paysagers"
 )
 JobFormation.create!(
@@ -1853,7 +1853,7 @@ formations << Formation.create!(
   name: "BTSA Aménagements Paysagers",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/btsa-amenagements-paysagers"
 )
 JobFormation.create!(
@@ -1880,7 +1880,7 @@ formations << Formation.create!(
   name: "CAP Maintenance des Bâtiments de Collectivité",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/cap-interventions-en-maintenance-technique-des-batiments"
 )
 JobFormation.create!(
@@ -1892,7 +1892,7 @@ formations << Formation.create!(
   name: "Bac Pro Maintenance des Équipements et des Bâtiments",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-maintenance-des-materiels-option-b-materiels-de-construction-et-de-manutention"
 )
 JobFormation.create!(
@@ -1904,7 +1904,7 @@ formations << Formation.create!(
   name: "BTS Maintenance des Systèmes option Bâtiment",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-maintenance-des-systemes-option-b-systemes-energetiques-et-fluidiques"
 )
 JobFormation.create!(
@@ -1929,7 +1929,7 @@ formations << Formation.create!(
   name: "Classe Préparatoire aux Grandes Écoles (CPGE) option aéronautique",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles/les-prepas-scientifiques/les-prepas-apres-un-bts-ou-un-but-scientifique"
 )
 JobFormation.create!(
@@ -1953,7 +1953,7 @@ formations << Formation.create!(
   name: "École Nationale de l'Aviation Civile (ENAC) - Pilote de Ligne",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.enac.fr/fr/epl-eleve-pilote-de-ligne"
 )
 JobFormation.create!(
@@ -1979,7 +1979,7 @@ formations << Formation.create!(
   name: "CAPA Travaux Forestiers",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/capa-travaux-forestiers"
 )
 JobFormation.create!(
@@ -1991,7 +1991,7 @@ formations << Formation.create!(
   name: "Bac Pro Gestion des Milieux Naturels et de la Faune",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-pro-gestion-des-milieux-naturels-et-de-la-faune"
 )
 JobFormation.create!(
@@ -2003,7 +2003,7 @@ formations << Formation.create!(
   name: "BTSA Gestion Forestière",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/btsa-gestion-forestiere"
 )
 JobFormation.create!(
@@ -2029,7 +2029,7 @@ formations << Formation.create!(
   name: "CAP Matelot",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-matelot"
 )
 JobFormation.create!(
@@ -2041,7 +2041,7 @@ formations << Formation.create!(
   name: "Bac Pro Conduite et Gestion des Entreprises Maritimes (CGEM)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-cgem"
 )
 JobFormation.create!(
@@ -2053,7 +2053,7 @@ formations << Formation.create!(
   name: "Brevet de Capitaine 200",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/brevet-capitaine-200"
 )
 JobFormation.create!(
@@ -2079,7 +2079,7 @@ formations << Formation.create!(
   name: "CAP Conducteur Routier de Marchandises",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-conducteur-routier"
 )
 JobFormation.create!(
@@ -2091,7 +2091,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Conducteur du Transport Routier de Marchandises (CTRMP)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-conducteur-routier.html"
 )
 JobFormation.create!(
@@ -2129,7 +2129,7 @@ formations << Formation.create!(
   name: "CAP Agent de Sécurité",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-agent-securite"
 )
 JobFormation.create!(
@@ -2141,7 +2141,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Agent de Prévention et de Sécurité (APS)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-agent-securite.html"
 )
 JobFormation.create!(
@@ -2153,7 +2153,7 @@ formations << Formation.create!(
   name: "BP Agent Technique de Prévention et de Sécurité",
   level: "Bac Pro",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bp-agent-securite"
 )
 JobFormation.create!(
@@ -2184,7 +2184,7 @@ formations << Formation.create!(
   name: "CAP Réalisations Industrielles en Chaudronnerie ou Soudage option B : Métallerie",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-metallerie"
 )
 JobFormation.create!(
@@ -2196,7 +2196,7 @@ formations << Formation.create!(
   name: "Bac Pro Ouvrages du Bâtiment : Métallerie",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-metallerie"
 )
 JobFormation.create!(
@@ -2208,7 +2208,7 @@ formations << Formation.create!(
   name: "BP Métallier",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bp-metallier"
 )
 JobFormation.create!(
@@ -2233,7 +2233,7 @@ formations << Formation.create!(
   name: "CAP Menuisier Fabricant de Menuiserie, Mobilier et Agencement",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-menuisier-fabricant"
 )
 JobFormation.create!(
@@ -2245,7 +2245,7 @@ formations << Formation.create!(
   name: "Bac Pro Technicien Menuisier Agenceur",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-menuisier"
 )
 JobFormation.create!(
@@ -2257,7 +2257,7 @@ formations << Formation.create!(
   name: "BTS Développement et Réalisation Bois",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-bois"
 )
 JobFormation.create!(
@@ -2287,7 +2287,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Installateur de Réseaux de Télécommunications en Fibre Optique",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-fibre-optique.html"
 )
 JobFormation.create!(
@@ -2299,7 +2299,7 @@ formations << Formation.create!(
   name: "Bac Pro Systèmes Numériques option Réseaux et Télécommunications",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-systemes-numeriques"
 )
 JobFormation.create!(
@@ -2311,7 +2311,7 @@ formations << Formation.create!(
   name: "BTS Systèmes Numériques option Informatique et Réseaux",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-systemes-numeriques"
 )
 JobFormation.create!(
@@ -2337,7 +2337,7 @@ formations << Formation.create!(
   name: "CAP Réparation des Carrosseries",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-reparation-carrosseries"
 )
 JobFormation.create!(
@@ -2349,7 +2349,7 @@ formations << Formation.create!(
   name: "Bac Pro Réparation des Carrosseries",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-reparation-carrosseries"
 )
 JobFormation.create!(
@@ -2361,7 +2361,7 @@ formations << Formation.create!(
   name: "CQP Peintre en Carrosserie",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/cqp-peintre-carrosserie.html"
 )
 JobFormation.create!(
@@ -2387,7 +2387,7 @@ formations << Formation.create!(
   name: "CAP Tailleur de Pierre - Marbrier du Bâtiment et de la Décoration",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-tailleur-pierre"
 )
 JobFormation.create!(
@@ -2399,7 +2399,7 @@ formations << Formation.create!(
   name: "Bac Pro Métiers et Arts de la Pierre",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-metiers-pierre"
 )
 JobFormation.create!(
@@ -2411,7 +2411,7 @@ formations << Formation.create!(
   name: "BTS Métiers de la Pierre",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-metiers-pierre"
 )
 JobFormation.create!(
@@ -2437,7 +2437,7 @@ formations << Formation.create!(
   name: "CQP Cordiste",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/cqp-cordiste.html"
 )
 JobFormation.create!(
@@ -2449,7 +2449,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Cordiste",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/titre-pro-cordiste"
 )
 JobFormation.create!(
@@ -2461,7 +2461,7 @@ formations << Formation.create!(
   name: "BP Métiers de la Montagne (option Travaux Acrobatiques)",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bp-metiers-montagne"
 )
 JobFormation.create!(
@@ -2491,7 +2491,7 @@ formations << Formation.create!(
   name: "CAP Agricole Vigne et Vin",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-agricole-vigne-et-vin"
 )
 JobFormation.create!(
@@ -2503,7 +2503,7 @@ formations << Formation.create!(
   name: "Bac Pro Conduite et Gestion de l’Exploitation Agricole (CGEA) option Viticulture",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-cgea-viticulture"
 )
 JobFormation.create!(
@@ -2515,7 +2515,7 @@ formations << Formation.create!(
   name: "BTSA Viticulture-Œnologie",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/btsa-viticulture-oenologie"
 )
 JobFormation.create!(
@@ -2541,7 +2541,7 @@ formations << Formation.create!(
   name: "CAPA Productions Horticoles option Fruits et Légumes",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/capa-productions-horticoles"
 )
 JobFormation.create!(
@@ -2553,7 +2553,7 @@ formations << Formation.create!(
   name: "Bac Pro Productions Horticoles",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-productions-horticoles"
 )
 JobFormation.create!(
@@ -2565,7 +2565,7 @@ formations << Formation.create!(
   name: "BTSA Productions Végétales",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/btsa-productions-vegetales"
 )
 JobFormation.create!(
@@ -2620,7 +2620,7 @@ formations << Formation.create!(
   name: "CAP Serrurier Métallier",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-serrurier-metallier"
 )
 JobFormation.create!(
@@ -2665,7 +2665,7 @@ formations << Formation.create!(
   name: "Bac Pro Technicien du Bâtiment : Organisation et Réalisation du Gros Œuvre",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-batiment"
 )
 JobFormation.create!(
@@ -2696,7 +2696,7 @@ formations << Formation.create!(
   name: "CAP Conduite de Systèmes Industriels",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-conduite-systemes-industriels"
 )
 JobFormation.create!(
@@ -2708,7 +2708,7 @@ formations << Formation.create!(
   name: "Bac Pro Pilotage de Systèmes de Production Automatisée",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-production-automatisee"
 )
 JobFormation.create!(
@@ -2721,7 +2721,7 @@ formations << Formation.create!(
   name: "BTS Conception des Processus de Réalisation de Produits",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-processus-realisation-produits"
 )
 JobFormation.create!(
@@ -2753,7 +2753,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Infirmier (DEI)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-infirmier"
 )
 JobFormation.create!(
@@ -2766,7 +2766,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour la Santé",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2778,7 +2778,7 @@ formations << Formation.create!(
   name: "Master Santé Publique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2804,7 +2804,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Aide-Soignant (DEAS)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-aide-soignant"
 )
 JobFormation.create!(
@@ -2816,7 +2816,7 @@ formations << Formation.create!(
   name: "Bac Pro Accompagnement, Soins et Services à la Personne (ASSP)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-assp"
 )
 JobFormation.create!(
@@ -2828,7 +2828,7 @@ formations << Formation.create!(
   name: "Formation Passerelle Aide-Soignant vers Infirmier",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/passerelle-aide-soignant-infirmier.html"
 )
 JobFormation.create!(
@@ -2854,7 +2854,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Assistant de Service Social (DEASS)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-assistant-social"
 )
 JobFormation.create!(
@@ -2866,7 +2866,7 @@ formations << Formation.create!(
   name: "Licence Intervention Sociale",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2878,7 +2878,7 @@ formations << Formation.create!(
   name: "Master Travail Social et Action Sociale",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2904,7 +2904,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Éducateur Spécialisé (DEES)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-educateur-specialise"
 )
 JobFormation.create!(
@@ -2916,7 +2916,7 @@ formations << Formation.create!(
   name: "Licence Sciences de l'Éducation",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2928,7 +2928,7 @@ formations << Formation.create!(
   name: "Master Intervention Sociale",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2959,7 +2959,7 @@ formations << Formation.create!(
   name: "Master Métiers de l'Enseignement, de l'Éducation et de la Formation (MEEF) - 1er degré",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -2971,7 +2971,7 @@ formations << Formation.create!(
   name: "Préparation au Concours de Recrutement de Professeur des Écoles (CRPE)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.education.gouv.fr/devenir-professeur-des-ecoles"
 )
 JobFormation.create!(
@@ -2997,7 +2997,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Conseiller en Insertion Professionnelle",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-conseiller-insertion.html"
 )
 JobFormation.create!(
@@ -3009,7 +3009,7 @@ formations << Formation.create!(
   name: "Licence Sciences Humaines et Sociales - Mention Travail Social",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3021,7 +3021,7 @@ formations << Formation.create!(
   name: "Master Gestion des Ressources Humaines et Insertion Professionnelle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3047,7 +3047,7 @@ formations << Formation.create!(
   name: "Diplôme d'État de Moniteur-Éducateur (DEME)",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-moniteur-educateur"
 )
 JobFormation.create!(
@@ -3088,7 +3088,7 @@ formations << Formation.create!(
   name: "Licence de Psychologie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/licence-psychologie"
 )
 JobFormation.create!(
@@ -3100,7 +3100,7 @@ formations << Formation.create!(
   name: "Master de Psychologie",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3112,7 +3112,7 @@ formations << Formation.create!(
   name: "Doctorat en Psychologie",
   level: "Bac +8",
   duration: 8,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/doctorat-psychologie"
 )
 JobFormation.create!(
@@ -3138,7 +3138,7 @@ formations << Formation.create!(
   name: "BPJEPS (Brevet Professionnel de la Jeunesse, de l'Éducation Populaire et du Sport)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bpjeps"
 )
 JobFormation.create!(
@@ -3150,7 +3150,7 @@ formations << Formation.create!(
   name: "DEJEPS (Diplôme d'État de la Jeunesse, de l'Éducation Populaire et du Sport)",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/dejeps"
 )
 JobFormation.create!(
@@ -3181,7 +3181,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Ergothérapeute",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-ergotherapeute"
 )
 JobFormation.create!(
@@ -3198,7 +3198,7 @@ formations << Formation.create!(
   name: "Master Santé et Réadaptation",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3229,7 +3229,7 @@ formations << Formation.create!(
   name: "Diplôme d'État de Masseur-Kinésithérapeute",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-kinesitherapeute"
 )
 JobFormation.create!(
@@ -3241,7 +3241,7 @@ formations << Formation.create!(
   name: "Licence STAPS option Kinésithérapie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/licence-staps"
 )
 JobFormation.create!(
@@ -3253,7 +3253,7 @@ formations << Formation.create!(
   name: "Master Kinésithérapie et Réadaptation",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3279,7 +3279,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Assistant de Vie aux Familles (ADVF)",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-advf.html"
 )
 JobFormation.create!(
@@ -3296,7 +3296,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Accompagnant Éducatif et Social (DEAES)",
   level: "Bac +1",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-accompagnant-educatif-social"
 )
 JobFormation.create!(
@@ -3327,7 +3327,7 @@ formations << Formation.create!(
   name: "Diplôme d'État de Docteur en Médecine",
   level: "Bac +9",
   duration: 9,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-docteur-medecine"
 )
 JobFormation.create!(
@@ -3339,7 +3339,7 @@ formations << Formation.create!(
   name: "PASS (Parcours Accès Spécifique Santé) ou L.AS (Licence Accès Santé)",
   level: "Bac +1",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/pass-las-medecine"
 )
 JobFormation.create!(
@@ -3351,7 +3351,7 @@ formations << Formation.create!(
   name: "Internat de Médecine Générale",
   level: "Bac +6 à Bac +9",
   duration: 9,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/internat-medecine"
 )
 JobFormation.create!(
@@ -3381,7 +3381,7 @@ formations << Formation.create!(
   name: "Certificat de Capacité d'Orthophoniste",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/certificat-capacite-orthophoniste"
 )
 JobFormation.create!(
@@ -3393,7 +3393,7 @@ formations << Formation.create!(
   name: "Licence Sciences du Langage",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/licence-sciences-langage"
 )
 JobFormation.create!(
@@ -3405,7 +3405,7 @@ formations << Formation.create!(
   name: "Master Orthophonie et Troubles du Langage",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3431,7 +3431,7 @@ formations << Formation.create!(
   name: "Licence Sciences Humaines et Sociales option Travail Social",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/licence-travail-social"
 )
 JobFormation.create!(
@@ -3443,7 +3443,7 @@ formations << Formation.create!(
   name: "Master Management et Ingénierie des Services et Établissements pour Personnes Handicapées",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3455,7 +3455,7 @@ formations << Formation.create!(
   name: "DU Handicap et Inclusion",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/du-handicap-inclusion.html"
 )
 JobFormation.create!(
@@ -3486,7 +3486,7 @@ formations << Formation.create!(
   name: "Diplôme d'État de Conseiller en Économie Sociale et Familiale (DECESF)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-conseiller-economie-sociale-familiale"
 )
 JobFormation.create!(
@@ -3498,7 +3498,7 @@ formations << Formation.create!(
   name: "BTS Économie Sociale et Familiale",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-economie-sociale-familiale"
 )
 JobFormation.create!(
@@ -3529,7 +3529,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Agent d’Accueil et d’Information",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-agent-accueil.html"
 )
 JobFormation.create!(
@@ -3541,7 +3541,7 @@ formations << Formation.create!(
   name: "Bac Pro Services aux Personnes et aux Territoires (SAPAT)",
   level: "Bac Pro",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bac-pro-sapat"
 )
 JobFormation.create!(
@@ -3553,7 +3553,7 @@ formations << Formation.create!(
   name: "BTS Services et Prestations des Secteurs Sanitaire et Social (SP3S)",
   level: "Bac +2",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/bts-sp3s"
 )
 JobFormation.create!(
@@ -3589,7 +3589,7 @@ formations << Formation.create!(
   name: "Master Travail Social et Politiques de l’Habitat",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3615,7 +3615,7 @@ formations << Formation.create!(
   name: "Diplôme d'État d'Éducateur de Jeunes Enfants (DEEJE)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-educateur-jeunes-enfants"
 )
 JobFormation.create!(
@@ -3651,7 +3651,7 @@ formations << Formation.create!(
   name: "Formation Obligatoire d'Assistant Maternel",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.service-public.fr/particuliers/vosdroits/F798"
 )
 JobFormation.create!(
@@ -3663,7 +3663,7 @@ formations << Formation.create!(
   name: "CAP Accompagnant Éducatif Petite Enfance (AEPE)",
   level: "CAP",
   duration: 2,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/cap-petite-enfance"
 )
 JobFormation.create!(
@@ -3704,7 +3704,7 @@ formations << Formation.create!(
   name: "Master Travail Social et Politiques de l’Éducation",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3730,7 +3730,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Médiateur Social Accès aux Droits et Services",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-mediateur-social.html"
 )
 JobFormation.create!(
@@ -3742,7 +3742,7 @@ formations << Formation.create!(
   name: "Diplôme d'État de Médiateur Familial (DEMF)",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-mediateur-familial"
 )
 JobFormation.create!(
@@ -3772,7 +3772,7 @@ formations << Formation.create!(
   name: "DU Addictologie et Prévention des Conduites à Risque",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/du-addictologie.html"
 )
 JobFormation.create!(
@@ -3784,7 +3784,7 @@ formations << Formation.create!(
   name: "Licence Sciences Sanitaires et Sociales option Addictologie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3820,7 +3820,7 @@ formations << Formation.create!(
   name: "Licence Sciences Humaines et Sociales mention Travail Social",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/licence-travail-social"
 )
 JobFormation.create!(
@@ -3832,7 +3832,7 @@ formations << Formation.create!(
   name: "Master Travail Social et Politique de l'Insertion",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3858,7 +3858,7 @@ formations << Formation.create!(
   name: "Master Management des Établissements de Santé et Médico-Sociaux",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3870,7 +3870,7 @@ formations << Formation.create!(
   name: "Licence Sciences Sanitaires et Sociales option Gérontologie",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3882,7 +3882,7 @@ formations << Formation.create!(
   name: "Diplôme de Cadre de Santé",
   level: "Bac +4",
   duration: 4,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/diplome-cadre-sante"
 )
 JobFormation.create!(
@@ -3946,7 +3946,7 @@ formations << Formation.create!(
   name: "Master Protection de l’Enfance et Politiques Sociales",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3972,7 +3972,7 @@ formations << Formation.create!(
   name: "DU Référent Handicap en Entreprise",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/du-referent-handicap.html"
 )
 JobFormation.create!(
@@ -3984,7 +3984,7 @@ formations << Formation.create!(
   name: "Licence Sciences Humaines et Sociales option Travail et Handicap",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -3996,7 +3996,7 @@ formations << Formation.create!(
   name: "Master Management et Inclusion du Handicap",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4022,7 +4022,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Formateur Professionnel d'Adultes",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-formateur-adultes.html"
 )
 JobFormation.create!(
@@ -4039,7 +4039,7 @@ formations << Formation.create!(
   name: "Master Ingénierie de la Formation et de l’Insertion Professionnelle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4065,7 +4065,7 @@ formations << Formation.create!(
   name: "DU Solidarité Internationale et Action Humanitaire",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/du-aide-humanitaire.html"
 )
 JobFormation.create!(
@@ -4077,7 +4077,7 @@ formations << Formation.create!(
   name: "Licence Relations Internationales et Humanitaires",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4089,7 +4089,7 @@ formations << Formation.create!(
   name: "Master Coopération Internationale et Action Humanitaire",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4115,7 +4115,7 @@ formations << Formation.create!(
   name: "Master Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4127,7 +4127,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Informatique option Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-intelligence-artificielle"
 )
 JobFormation.create!(
@@ -4139,7 +4139,7 @@ formations << Formation.create!(
   name: "Licence Informatique et Data Science",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4165,7 +4165,7 @@ formations << Formation.create!(
   name: "Master Architecte Logiciel et Systèmes",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4177,7 +4177,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Informatique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-informatique"
 )
 JobFormation.create!(
@@ -4189,7 +4189,7 @@ formations << Formation.create!(
   name: "Licence Informatique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4215,7 +4215,7 @@ formations << Formation.create!(
   name: "Master Data Science et Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4227,7 +4227,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Big Data et Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-big-data"
 )
 JobFormation.create!(
@@ -4239,7 +4239,7 @@ formations << Formation.create!(
   name: "Licence Mathématiques et Informatique appliquées aux Sciences Humaines et Sociales",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4265,7 +4265,7 @@ formations << Formation.create!(
   name: "Master Cybersécurité",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4277,7 +4277,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Sécurité Informatique et Réseaux",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-cybersecurite"
 )
 JobFormation.create!(
@@ -4308,7 +4308,7 @@ formations << Formation.create!(
   name: "Master Actuariat",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4320,7 +4320,7 @@ formations << Formation.create!(
   name: "Diplôme de l’Institut des Actuaires",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.institutdesactuaires.com"
 )
 JobFormation.create!(
@@ -4332,7 +4332,7 @@ formations << Formation.create!(
   name: "Licence Mathématiques et Informatique appliquées à l’Assurance et à la Finance",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4358,7 +4358,7 @@ formations << Formation.create!(
   name: "Master Statistique et Data Science",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4370,7 +4370,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Statistiques et Informatique Décisionnelle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-statistiques"
 )
 JobFormation.create!(
@@ -4382,7 +4382,7 @@ formations << Formation.create!(
   name: "Licence Mathématiques appliquées aux Sciences Sociales",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4408,7 +4408,7 @@ formations << Formation.create!(
   name: "Master Robotique et Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4420,7 +4420,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Robotique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-robotique"
 )
 JobFormation.create!(
@@ -4432,7 +4432,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Automatique et Robotique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4458,7 +4458,7 @@ formations << Formation.create!(
   name: "Master Finance option Analyse Financière",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4470,7 +4470,7 @@ formations << Formation.create!(
   name: "Diplôme d'Analyste Financier Certifié (CFA)",
   level: "Certification",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.cfainstitute.org"
 )
 JobFormation.create!(
@@ -4482,7 +4482,7 @@ formations << Formation.create!(
   name: "Licence Économie et Gestion",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4513,7 +4513,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Développeur Web et Web Mobile",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-developpeur-web.html"
 )
 JobFormation.create!(
@@ -4530,7 +4530,7 @@ formations << Formation.create!(
   name: "Master Développement Logiciel et Web",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4555,7 +4555,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Génie Civil",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-genie-civil"
 )
 JobFormation.create!(
@@ -4567,7 +4567,7 @@ formations << Formation.create!(
   name: "Master Génie Civil et Construction",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4579,7 +4579,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Bâtiment et Travaux Publics",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4605,7 +4605,7 @@ formations << Formation.create!(
   name: "Master Gestion des Risques et Assurance",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4617,7 +4617,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Gestion des Risques Industriels et Environnementaux",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-risques-industriels"
 )
 JobFormation.create!(
@@ -4648,7 +4648,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Aéronautique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-aeronautique"
 )
 JobFormation.create!(
@@ -4660,7 +4660,7 @@ formations << Formation.create!(
   name: "Master Aéronautique et Espace",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4672,7 +4672,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Aéronautique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4698,7 +4698,7 @@ formations << Formation.create!(
   name: "Master Cryptographie et Sécurité Informatique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4710,7 +4710,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Sécurité Informatique et Cryptographie",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-cryptographie"
 )
 JobFormation.create!(
@@ -4741,7 +4741,7 @@ formations << Formation.create!(
   name: "Master Énergies Renouvelables et Environnement",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4753,7 +4753,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Génie Énergétique et Renouvelable",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-energies-renouvelables"
 )
 JobFormation.create!(
@@ -4765,7 +4765,7 @@ formations << Formation.create!(
   name: "Licence Sciences et Technologies option Énergies Renouvelables",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4791,7 +4791,7 @@ formations << Formation.create!(
   name: "Master Génie Biomédical",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4803,7 +4803,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Biomédical",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-biomedical"
 )
 JobFormation.create!(
@@ -4815,7 +4815,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Biomédical",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4841,7 +4841,7 @@ formations << Formation.create!(
   name: "Master Automatique et Systèmes Intelligents",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4853,7 +4853,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Automatique et Robotique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-automatisation"
 )
 JobFormation.create!(
@@ -4865,7 +4865,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Automatique et Systèmes",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4891,7 +4891,7 @@ formations << Formation.create!(
   name: "Master Réseaux et Télécommunications",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4903,7 +4903,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Télécommunications",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-telecommunications"
 )
 JobFormation.create!(
@@ -4934,7 +4934,7 @@ formations << Formation.create!(
   name: "Titre Professionnel Administrateur Systèmes et Réseaux",
   level: "Certification",
   duration: 1,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.hellowork.com/fr-fr/metiers/titre-pro-admin-systeme-reseau.html"
 )
 JobFormation.create!(
@@ -4970,7 +4970,7 @@ formations << Formation.create!(
   name: "Master Intelligence Économique et Stratégique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -4982,7 +4982,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Gestion des Risques et Intelligence Économique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-intelligence-economique"
 )
 JobFormation.create!(
@@ -5070,7 +5070,7 @@ formations << Formation.create!(
   name: "Master Mathématiques Fondamentales et Appliquées",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5082,7 +5082,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Mathématiques et Modélisation",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-mathematiques"
 )
 JobFormation.create!(
@@ -5095,7 +5095,7 @@ formations << Formation.create!(
   name: "Licence Mathématiques et Applications",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5121,7 +5121,7 @@ formations << Formation.create!(
   name: "Master Ingénierie Mécanique et Conception",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5133,7 +5133,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Conception Mécanique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-conception-mecanique"
 )
 JobFormation.create!(
@@ -5145,7 +5145,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l'Ingénieur option Mécanique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5171,7 +5171,7 @@ formations << Formation.create!(
   name: "Master Bio-informatique et Modélisation",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5183,7 +5183,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Bio-informatique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-bioinformatique"
 )
 JobFormation.create!(
@@ -5243,7 +5243,7 @@ formations << Formation.create!(
   name: "Master Systèmes Embarqués et Objets Connectés",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5255,7 +5255,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Systèmes Embarqués",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-systemes-embarques"
 )
 JobFormation.create!(
@@ -5267,7 +5267,7 @@ formations << Formation.create!(
   name: "Licence Électronique et Informatique Industrielle",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5293,7 +5293,7 @@ formations << Formation.create!(
   name: "Master Optique, Photonique et Télécommunications",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5305,7 +5305,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Photonique et Optique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-photonique"
 )
 JobFormation.create!(
@@ -5317,7 +5317,7 @@ formations << Formation.create!(
   name: "Licence Physique option Optique et Photonique",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5343,7 +5343,7 @@ formations << Formation.create!(
   name: "Master Big Data et Intelligence Artificielle",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5355,7 +5355,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Data Science et Big Data",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-big-data"
 )
 JobFormation.create!(
@@ -5386,7 +5386,7 @@ formations << Formation.create!(
   name: "Master Énergie Nucléaire et Génie Atomique",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5398,7 +5398,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Génie Nucléaire",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-genie-nucleaire"
 )
 JobFormation.create!(
@@ -5410,7 +5410,7 @@ formations << Formation.create!(
   name: "Licence Physique et Énergie option Nucléaire",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5436,7 +5436,7 @@ formations << Formation.create!(
   name: "Master Mobilité Intelligente et Véhicules Connectés",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(
@@ -5448,7 +5448,7 @@ formations << Formation.create!(
   name: "Diplôme d'Ingénieur en Véhicules Autonomes et Électriques",
   level: "Bac +5",
   duration: 5,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.onisep.fr/metiers/ingenieur-vehicules-intelligents"
 )
 JobFormation.create!(
@@ -5460,7 +5460,7 @@ formations << Formation.create!(
   name: "Licence Sciences pour l’Ingénieur option Mécatronique et Automobile",
   level: "Bac +3",
   duration: 3,
-  price: 0,
+  price: 3000,
   url_formation: "https://www.trouvermonmaster.gouv.fr"
 )
 JobFormation.create!(

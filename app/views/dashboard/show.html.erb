@@ -18,15 +18,11 @@
       <%= render 'dashboard/list_jobs', jobs: @jobs %>
     </div>
 
-    <div class="span-1">
+    <div class="span-2 d-flex">
       <%= render 'jobs/jobs_details', job: @job, formation_for_job: @formations_for_job %>
     </div>
-
   </div>
 
-  <div class="span-1">
-    <%= render 'jobs/jobs_price', job: @job, formation_for_job: @formations_for_job %>
-  </div>
 
 </div>
 <div class="w-100 newsletter py-5">

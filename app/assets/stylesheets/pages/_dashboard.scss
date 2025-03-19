@@ -24,3 +24,7 @@
   color: $light-gray;
   border-color: $primary;
 }
+
+.span-2 {
+  grid-column: span 2;
+}
