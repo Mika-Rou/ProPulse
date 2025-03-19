@@ -3,9 +3,9 @@ class Job < ApplicationRecord
   has_many :job_formations
   has_many :categories, through: :job_categories
   has_many :category_values, as: :typeable
-  
-  has_neighbors :embedding
-  after_create :set_embedding
+
+  # has_neighbors :embedding
+  # after_create :set_embedding
 
   private
 

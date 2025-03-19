@@ -61,28 +61,28 @@ questions << Question.create!(
 choices = []
 
 choices << Choice.create!(
-  score: 15,
+  score: 25,
   choice: "Des streams ou vidéos YouTube/Twitch avec du contenu divertissant et créatif.",
   category_id: 1,
   question_id: 1
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 25,
   choice: "Des vidéos sur les voitures, la mécanique, la technologie ou le sport.",
   category_id: 2,
   question_id: 1
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 25,
   choice: "Des vidéos de vulgarisation sur l’histoire, la science ou des sujets complexes.",
   category_id: 3,
   question_id: 1
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 25,
   choice: "Des interviews, des débats ou des discussions sur des sujets d’actualité.",
   category_id: 4,
   question_id: 1
@@ -95,28 +95,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 35,
   choice: "Tu as toujours des idées intéressantes !",
   category_id: 1,
   question_id: 2
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 35,
   choice: "Tu es quelqu’un de débrouillard(e) !",
   category_id: 2,
   question_id: 2
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 35,
   choice: "Tu comprends vite et tu trouves de bonnes solutions !",
   category_id: 3,
   question_id: 2
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 35,
   choice: "On peut toujours compter sur toi !",
   category_id: 4,
   question_id: 2
@@ -129,28 +129,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 40,
   choice: "Dessiner, écrire, chanter ou créer des spectacles avec tes amis.",
   category_id: 1,
   question_id: 3
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 40,
   choice: "Jouer aux Legos, aux Kapla, démonter des objets pour comprendre comment ils fonctionnent.",
   category_id: 2,
   question_id: 3
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 40,
   choice: "Jouer à des jeux de réflexion, résoudre des énigmes ou poser plein de questions.",
   category_id: 3,
   question_id: 3
 )
 
 choices << Choice.create!(
-  score: 20,
+  score: 40,
   choice: "Jouer en groupe, discuter, aider les autres ou organiser des jeux.",
   category_id: 4,
   question_id: 3
@@ -163,7 +163,8 @@ tests << Test.create!(
   nb_questions: 5,
   img_name: "gradient-1.jpg",
   img_icon: "img-test-1.png",
-  description: "Découvre le métier fait pour toi ! En 5 questions et 10 minutes, identifie les domaines pro qui te correspondent et clarifie tes aspirations."
+  description: "Découvre le métier fait pour toi ! En 5 questions et 10 minutes, identifie les domaines pro qui te
+               correspondent et clarifie tes aspirations."
 )
 
 questions << Question.create!(
@@ -173,28 +174,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Films d’animation, fantaisie ou mondes imaginaires. (Harry Potter, Marvel, Your Name, Arcane).",
   category_id: 1,
   question_id: 4
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Actions, aventures, films basés sur des faits réels (Le Comte de Monte-Cristo, The Social Network, …).",
   category_id: 2,
   question_id: 4
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Des thrillers, policiers, enquêtes (ex : Sherlock Holmes, Death Note, Inception, Attack on Titan).",
   category_id: 3,
   question_id: 4
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Des films de société, des comédies romantiques, … (Forest Gump, Titanic, Intouchable,… ).",
   category_id: 4,
   question_id: 4
@@ -207,28 +208,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Créer une affiche originale pour un projet de classe, tourner une vidéo pour un exposé.",
   category_id: 1,
   question_id: 5
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Monter un ordinateur par soi-même, expérimenter une recette de cuisine au lieu de juste la lire.",
   category_id: 2,
   question_id: 5
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Résoudre une énigme mathématique, optimiser un emploi du temps pour gagner du temps.",
   category_id: 3,
   question_id: 5
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Expliquer un exercice à un camarade, organiser un débat sur un sujet d’actualité.",
   category_id: 4,
   question_id: 5
@@ -241,28 +242,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "J’aime tester les possibilités pour voir comment je peux le personnaliser.  ",
   category_id: 1,
   question_id: 6
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Je cherche à comprendre comment ça fonctionne en essayant directement. ",
   category_id: 2,
   question_id: 6
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "J’analyse les règles et la meilleure façon de progresser.  ",
   category_id: 3,
   question_id: 6
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Je préfère jouer avec d’autres et échanger sur nos expériences.  Expliquer un exercice à un camarade, organiser un débat sur un sujet d’actualité.",
   category_id: 4,
   question_id:6
@@ -275,28 +276,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Dans un studio de design ou un espace où je peux créer et tester des projets visuels.",
   category_id: 1,
   question_id: 7
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Sur le terrain, en action, avec des tâches concrètes à réaliser.  ",
   category_id: 2,
   question_id: 7
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Dans un bureau où je peux analyser, structurer et réfléchir.",
   category_id: 3,
   question_id: 7
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Dans un endroit où je peux interagir avec beaucoup de personnes.",
   category_id: 4,
   question_id: 7
@@ -309,28 +310,28 @@ questions << Question.create!(
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "Avec un dessin, une métaphore ou une démonstration visuelle.",
   category_id: 1,
   question_id: 8
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "En lui montrant un exemple concret et en testant avec lui.",
   category_id: 2,
   question_id: 8
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "En organisant les idées de manière claire et logique.",
   category_id: 3,
   question_id: 8
 )
 
 choices << Choice.create!(
-  score: 15,
+  score: 20,
   choice: "En discutant avec lui pour comprendre comment il voit les choses.",
   category_id: 4,
   question_id: 8
@@ -5538,8 +5539,10 @@ tests << Test.create!(
   description: "Transforme tes passions en métier ! En quelques questions, découvre les domaines où tu pourras t’épanouir professionnellement."
 )
 
-
-
+QualifyValueService.qualify
+puts "QualifyValueService.qualify done!"
+puts "ID that doen't work"
+puts Job.all.select{ |j| j.category_values.count < 4 }.map(&:id)
 # Seed User Answers
 # users.each do |user|
 #   rand(5..10).times do
