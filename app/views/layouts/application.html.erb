@@ -16,6 +16,8 @@
     <%= render "shared/navbar", white_mode: false %>
     <%= render "shared/flashes" %>
     <%= yield %>
+    <% if @show_render %>
       <%= render "shared/footer" %>
+    <% end %>
   </body>
 </html>
