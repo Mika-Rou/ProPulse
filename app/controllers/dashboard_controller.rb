@@ -5,7 +5,7 @@ class DashboardController < ApplicationController
   def show
     @user = User.find(params[:id])
     @category_score = Category.joins(:choices).group("categories.name").sum("choices.score")
-    @jobs = Job.all.first(10)
+    @jobs = Job.top_10_closest_jobs(current_user.profil_category)
     @job = Job.find(1)
 
     @formations_for_job = Formation.joins(:job_formations)
