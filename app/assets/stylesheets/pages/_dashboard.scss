@@ -1,0 +1,26 @@
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  row-gap: 1rem;
+
+  .dash-margin-b {
+    margin-bottom: 1rem;
+  }
+}
+
+.list-group-item {
+  border: 0px solid $gray;
+  background-color: white;
+}
+
+.list-group-item-primary {
+  color: $primary; /* Couleur du texte par défaut */
+  background-color: $light-gray;
+}
+
+.list-group-item-primary.active {
+  background-color: $primary; /* Couleur personnalisée pour l'élément actif */
+  color: $light-gray;
+  border-color: $primary;
+}

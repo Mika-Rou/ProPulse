@@ -10,20 +10,24 @@
   </div>
 </div>
 
-<%# ! DASHBOARD %>
-<div class="container my-5" style="height: 700px">
-  <div class="row gap-3 flex-nowrap w-100 my-3">
+  <%# ! DASHBOARD %>
+  <div class="container dash-grid my-5">
 
-    <%# ! COLONNE 1 %>
-
-    <div class="col-4 text-start border border-black rounded-4 p-3">
-      <h5 class="text-end">TOP 10 métiers</h5>
+    <div class="text-start border span-1 border-black rounded-4 p-3">
+      <h5 class="text-end pb-3">TOP 10 métiers</h5>
       <%= render 'dashboard/list_jobs', jobs: @jobs %>
     </div>
-    <div class="col-8">
+
+    <div class="span-1">
       <%= render 'jobs/jobs_details', job: @job, formation_for_job: @formations_for_job %>
     </div>
+
   </div>
+
+  <div class="span-1">
+    <%= render 'jobs/jobs_price', job: @job, formation_for_job: @formations_for_job %>
+  </div>
+
 </div>
 <div class="w-100 newsletter py-5">
   <%= render 'shared/newsletter' %>
