@@ -1,12 +1,12 @@
 <%# ! Synthèse tests PROFIL utilisateur%>
 <div class="container mt-5 w-100 d-flex flex-column align-items-center">
   <div class="text-center w-75 ">
-    <h2>Découvrez vos <em>résultats</em> <br> et <strong>explorez</strong> votre avenir !</h2>
+    <h2>Découvrez vos <em>résultats</em> <br> et <em>explorez</em> votre avenir !</h2>
     <br>
     <p class= "text-justify-center markdown-content">
       <%= @markdown_content %>
     </p>
-    <button type="button" class="btn btn-primary read-more-btn">Découvrir</button>
+    <button type="button" class="btn btn-principal read-more-btn mt-3">Découvrir</button>
   </div>
 </div>
 
@@ -16,7 +16,7 @@
 
     <%# ! COLONNE 1 %>
 
-    <div class="col-4 text-start border border-black rounded-4 pt-3">
+    <div class="col-4 text-start border border-black rounded-4 p-3">
       <h5 class="text-end">TOP 10 métiers</h5>
       <%= render 'dashboard/list_jobs', jobs: @jobs %>
     </div>

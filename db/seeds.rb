@@ -137,7 +137,7 @@ choices << Choice.create!(
 
 choices << Choice.create!(
   score: 40,
-  choice: "Jouer aux Legos, aux Kapla, démonter des objets pour comprendre comment ils fonctionnent.",
+  choice: "Jouer aux Legos, démonter des objets pour comprendre comment ils fonctionnent.",
   category_id: 2,
   question_id: 3
 )
@@ -175,28 +175,28 @@ questions << Question.create!(
 
 choices << Choice.create!(
   score: 20,
-  choice: "Films d’animation, fantaisie ou mondes imaginaires. (Harry Potter, Marvel, Your Name, Arcane).",
+  choice: "Films d’animation, fantaisie ou mondes imaginaires.",
   category_id: 1,
   question_id: 4
 )
 
 choices << Choice.create!(
   score: 20,
-  choice: "Actions, aventures, films basés sur des faits réels (Le Comte de Monte-Cristo, The Social Network, …).",
+  choice: "Actions, aventures, films basés sur des faits réels.",
   category_id: 2,
   question_id: 4
 )
 
 choices << Choice.create!(
   score: 20,
-  choice: "Des thrillers, policiers, enquêtes (ex : Sherlock Holmes, Death Note, Inception, Attack on Titan).",
+  choice: "Des thrillers, policiers, enquêtes.",
   category_id: 3,
   question_id: 4
 )
 
 choices << Choice.create!(
   score: 20,
-  choice: "Des films de société, des comédies romantiques, … (Forest Gump, Titanic, Intouchable,… ).",
+  choice: "Des films de société, des comédies romantiques.",
   category_id: 4,
   question_id: 4
 )
@@ -216,21 +216,21 @@ choices << Choice.create!(
 
 choices << Choice.create!(
   score: 20,
-  choice: "Monter un ordinateur par soi-même, expérimenter une recette de cuisine au lieu de juste la lire.",
+  choice: "Monter un ordinateur soi-même, expérimenter une recette de cuisine.",
   category_id: 2,
   question_id: 5
 )
 
 choices << Choice.create!(
   score: 20,
-  choice: "Résoudre une énigme mathématique, optimiser un emploi du temps pour gagner du temps.",
+  choice: "Résoudre une énigme, optimiser un emploi du temps.",
   category_id: 3,
   question_id: 5
 )
 
 choices << Choice.create!(
   score: 20,
-  choice: "Expliquer un exercice à un camarade, organiser un débat sur un sujet d’actualité.",
+  choice: "Expliquer un exercice à un camarade, organiser un débat.",
   category_id: 4,
   question_id: 5
 )
@@ -264,7 +264,7 @@ choices << Choice.create!(
 
 choices << Choice.create!(
   score: 20,
-  choice: "Je préfère jouer avec d’autres et échanger sur nos expériences.  Expliquer un exercice à un camarade, organiser un débat sur un sujet d’actualité.",
+  choice: "Je préfère jouer avec d’autres et échanger sur nos expériences.",
   category_id: 4,
   question_id:6
 )
@@ -277,7 +277,7 @@ questions << Question.create!(
 
 choices << Choice.create!(
   score: 20,
-  choice: "Dans un studio de design ou un espace où je peux créer et tester des projets visuels.",
+  choice: "Dans un studio de design où je peux créer des projets visuels.",
   category_id: 1,
   question_id: 7
 )
@@ -5491,7 +5491,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Bilan Express : découvre ta voie",
-  category: "Tests<br> de personnalité",
+  category: "Tests de personnalité",
   duration: 9,
   nb_questions: 0,
   img_name: "gradient-3.jpg",
@@ -5511,7 +5511,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Cartographie de vos talents",
-  category: "Tests<br> de compétence",
+  category: "Tests de compétence",
   duration: 15,
   nb_questions: 0,
   img_name: "gradient-2.jpg",
@@ -5531,7 +5531,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Passions & Métiers",
-  category: "Tests d'intérêts <br>professionnels",
+  category: "Tests d'intérêts professionnels",
   duration: 15,
   nb_questions: 0,
   img_name: "gradient-1.jpg",
