@@ -25,4 +25,9 @@ class User < ApplicationRecord
     end
     return score
   end
+
+  def profil_update
+    profil_description = OpenaiService.profil_description(self.profil_category)
+    self.update(profil_description: profil_description)
+  end
 end

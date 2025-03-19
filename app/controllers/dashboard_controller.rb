@@ -6,7 +6,7 @@ class DashboardController < ApplicationController
     @user = User.find(params[:id])
     @category_score = Category.joins(:choices).group("categories.name").sum("choices.score")
     @jobs = Job.top_10_closest_jobs(current_user.profil_category)
-    @job = Job.find(1)
+    @job = @jobs.first
 
     @formations_for_job = Formation.joins(:job_formations)
                                     .where(job_formations: { job_id: @job.id })
@@ -24,17 +24,15 @@ class DashboardController < ApplicationController
                                  .to_h
 
 
-    result = Choice.joins(:user_answers)
+    @result = Choice.joins(:user_answers)
     .where(user_answers: { user_id: current_user.id })
     .includes(:category)
     .group('categories.id')
     .pluck("categories.name, sum(choices.score) as score_sum")
     .to_h
 
-
-    @profile_description = OpenaiService.profil_description(result)
-    @markdown_content = markdown_to_html(@profile_description)
-
+    @markdown_content = markdown_to_html(current_user.profil_description.nil? ? "" : current_user.profil_description)
+    
   end
 
   def update

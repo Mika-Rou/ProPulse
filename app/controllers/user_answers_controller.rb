@@ -21,7 +21,8 @@ class UserAnswersController < ApplicationController
           cat = Category.find_by(name: key)
           current_user.category_values.create(category: cat, value: value)
         end
-        
+        current_user.profil_update
+
         redirect_to dashboard_path(current_user)
       end
     else
