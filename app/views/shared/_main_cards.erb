@@ -5,7 +5,7 @@
     </p>
 
     <div class="card-test-content">
-      <h3 class="title-inter"> <%= test.category.html_safe %> </h3>
+      <h3 class="title-inter"> <%= test.category %> </h3>
 
       <%# <p>= description</p> %>
       <%= link_to "Voir tous les tests", tests_path(test_id: test.id), class: "btn-principal-white", data: { turbo_frame: :tests_by_category, controller: "scroll", action: "click->scroll#scroll", target: "target-section" } %>
