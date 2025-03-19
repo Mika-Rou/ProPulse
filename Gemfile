@@ -9,6 +9,7 @@ gem 'dotenv', groups: [:development, :test]
 gem "ruby-openai"
 gem 'redcarpet'
 gem 'greensock-rails'
+gem 'neighbor'
 
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
