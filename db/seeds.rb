@@ -5490,7 +5490,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Bilan Express : découvre ta voie",
-  category: "Tests<br> de personnalité".html_safe,
+  category: "Tests<br> de personnalité",
   duration: 9,
   nb_questions: 0,
   img_name: "gradient-3.jpg",
@@ -5510,7 +5510,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Cartographie de vos talents",
-  category: "Tests<br> de compétence".html_safe,
+  category: "Tests<br> de compétence",
   duration: 15,
   nb_questions: 0,
   img_name: "gradient-2.jpg",
@@ -5530,7 +5530,7 @@ tests << Test.create!(
 
 tests << Test.create!(
   name: "Passions & Métiers",
-  category: "Tests d'intérêts <br>professionnels".html_safe,
+  category: "Tests d'intérêts <br>professionnels",
   duration: 15,
   nb_questions: 0,
   img_name: "gradient-1.jpg",
