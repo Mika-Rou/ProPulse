@@ -10,11 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_03_18_091924) do
-
+ActiveRecord::Schema[7.1].define(version: 2025_03_18_115733) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "vector"
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -79,7 +77,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_03_18_091924) do
     t.string "url_job"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.vector "embedding", limit: 1536
   end
 
   create_table "questions", force: :cascade do |t|

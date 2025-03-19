@@ -5538,8 +5538,10 @@ tests << Test.create!(
   description: "Transforme tes passions en métier ! En quelques questions, découvre les domaines où tu pourras t’épanouir professionnellement."
 )
 
-
-
+QualifyValueService.qualify
+puts "QualifyValueService.qualify done!"
+puts "ID that doen't work"
+puts Job.all.select{ |j| j.category_values.count < 4 }.map(&:id)
 # Seed User Answers
 # users.each do |user|
 #   rand(5..10).times do
