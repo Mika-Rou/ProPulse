@@ -11,7 +11,6 @@ class UserAnswersController < ApplicationController
                                     .group('categories.id')
                                     .pluck("categories.name, avg(choices.score) as score_sum")
                                     .to_h
-
     if @user_answer.save
       next_question = find_next_question
 
@@ -22,15 +21,15 @@ class UserAnswersController < ApplicationController
           cat = Category.find_by(name: key)
           current_user.category_values.create(category: cat, value: value)
         end
+        current_user.profil_update
+
         redirect_to dashboard_path(current_user)
       end
-
     else
       flash[:alert] = "Oups ! Il semble que vous n'ayez pas encore saisi de réponse. Essayez à nouveau !"
       redirect_to question_path(@question)
     end
   end
-
   private
 
   def find_next_question
