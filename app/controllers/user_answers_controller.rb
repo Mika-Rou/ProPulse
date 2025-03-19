@@ -11,6 +11,7 @@ class UserAnswersController < ApplicationController
                                     .group('categories.id')
                                     .pluck("categories.name, avg(choices.score) as score_sum")
                                     .to_h
+
     if @user_answer.save
       next_question = find_next_question
 

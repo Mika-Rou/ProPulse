@@ -209,7 +209,7 @@ questions << Question.create!(
 
 choices << Choice.create!(
   score: 20,
-  choice: "Créer une affiche originale pour un projet de classe, tourner une vidéo pour un exposé.",
+  choice: "Créer un poster original pour un projet de classe, tourner une vidéo pour un exposé.",
   category_id: 1,
   question_id: 5
 )
@@ -5539,10 +5539,17 @@ tests << Test.create!(
   description: "Transforme tes passions en métier ! En quelques questions, découvre les domaines où tu pourras t’épanouir professionnellement."
 )
 
-QualifyValueService.qualify
-puts "QualifyValueService.qualify done!"
+QualifyValueService.qualify_jobs
+puts "QualifyValueService.qualify_job done!"
 puts "ID that doen't work"
 puts Job.all.select{ |j| j.category_values.count < 4 }.map(&:id)
+
+
+QualifyValueService.qualify_choices
+puts "QualifyValueService.qualify_choice done!"
+puts "ID that doen't work"
+puts Choice.all.select{ |c| c.category_values.count < 4 }.map(&:id)
+
 # Seed User Answers
 # users.each do |user|
 #   rand(5..10).times do
