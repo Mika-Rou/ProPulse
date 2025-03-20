@@ -7,3 +7,4 @@ import "bootstrap"
 // added
 import "chartkick";
 import "Chart.bundle";
+
