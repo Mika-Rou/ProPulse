@@ -25,7 +25,7 @@ class OpenaiService
 
             <h4>[TITRE]</h4>
             <p class='less-text'>[DESCRIPTION]</p>
-            <div class='more-text'>
+            <div class='text-to-display'>
               <p>[DOMAINES PROFESSIONNELS]</p>
               <p>[CONSEIL]</p>
             </div>

@@ -14,17 +14,10 @@
   background-color: white;
 }
 
-.list-group-item-primary {
-  color: $primary; /* Couleur du texte par défaut */
-  background-color: $light-gray;
-}
-
-.list-group-item-primary.active {
-  background-color: $primary; /* Couleur personnalisée pour l'élément actif */
-  color: $light-gray;
-  border-color: $primary;
-}
-
 .span-2 {
   grid-column: span 2;
+}
+
+.gap-1-rem {
+  gap: 1rem;
 }
