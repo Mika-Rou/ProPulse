@@ -14,6 +14,8 @@ class ApplicationController < ActionController::Base
   private
 
   def set_render_visibility
-    @show_render = !(controller_name == "questions" && action_name == "show")
+    @show_render = !((controller_name == "questions" && action_name == "show") ||
+                                              (controller_name == "errors" && action_name == "not_found")
+                                              (controller_name == "errors" && action_name == "internal_server_error"))
   end
 end

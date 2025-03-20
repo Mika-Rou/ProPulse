@@ -1,0 +1,26 @@
+<div class="video-background bg-black mb-5" style="height: 100vh; position: relative; overflow: hidden;">
+  <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+    <source src="<%= asset_path('background.mp4') %>" type="video/mp4">
+    Votre navigateur ne supporte pas les vidéos HTML5.
+  </video>
+
+  <div class="overlay d-flex flex-column justify-content-center align-items-center vh-100">
+    <div class="content container d-flex justify-content-center align-items-center">
+      <%= image_tag 'logo.png', alt: 'logo', class:"rounded-circle object-fit-cover me-2 mb-2", style:"width: 100px;" %>
+      <h3 class="my-0 padding-top">FATAL !! Erreur 404 - La page n'existe pas. </h3>
+    </div>
+
+    <div data-js="astro" class="astronaut">
+      <div class="head"></div>
+      <div class="arm arm-left"></div>
+      <div class="arm arm-right"></div>
+      <div class="body">
+        <div class="panel"></div>
+      </div>
+      <div class="leg leg-left"></div>
+      <div class="leg leg-right"></div>
+      <div class="schoolbag"></div>
+    </div>
+
+  </div>
+</div>
