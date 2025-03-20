@@ -17,8 +17,8 @@ module ProPulse
     end
 
     config.to_prepare do
-      Devise::SessionsController.layout "white_mode"
-      Devise::RegistrationsController.layout "white_mode"
+      Devise::SessionsController.layout "layout_no_footer"
+      Devise::RegistrationsController.layout "layout_no_footer"
     end
 
     # Initialize configuration defaults for originally generated Rails version.
