@@ -20,4 +20,7 @@ class ApplicationController < ActionController::Base
                                               (controller_name == "errors" && action_name == "not_found")
                                               (controller_name == "errors" && action_name == "internal_server_error"))
   end
+
+  def set_layout
+  end
 end
