@@ -8,7 +8,7 @@ body {
   left: 0;
   height: 100vh;
   overflow: hidden;
-  z-index: -1; // Place la vidéo en arrière-plan
+  z-index: -1;// Place la vidéo en arrière-plan
 
   video {
     position: absolute;
