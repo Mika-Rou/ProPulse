@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ProPulse</title>
+    <title>ProPulse - Orientation et Avenir</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <%= favicon_link_tag asset_path("logo.png")%>
@@ -10,7 +10,31 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-  </head>
+
+    <title><%= meta_title || "Propulse - Orientation et Avenir" %></title>
+    <meta name="keywords" content="orientation post-bac, choix études, métiers d’avenir, lycéens orientation,
+    Parcoursup, conseils orientation, avenir professionnel, tests d’orientation, choix de carrière,
+    formations supérieures, études supérieures, lycéens, étudiants, écoles post-bac, universités,
+    orientation scolaire, bac, études et métiers, secteurs d’activité, compétences, tests de personnalité,
+    projet professionnel, accompagnement scolaire, insertion professionnelle, avenir lycéen, parcoursup">
+
+    <meta name="description" content="<%= meta_description || 'Aide les lycéens à s’orienter et à choisir leur avenir professionnel sereinement.' %>">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= meta_title || 'Propulse - Orientation et Avenir' %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image || asset_path('default-meta-image.jpg') %>" />
+    <meta property="og:description" content="<%= meta_description || 'Un accompagnement personnalisé pour choisir ses études et son avenir.' %>" />
+    <meta property="og:site_name" content="Propulse" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@propulse-edu">
+    <meta name="twitter:title" content="<%= meta_title || 'Propulse - Orientation et Avenir' %>">
+    <meta name="twitter:description" content="<%= meta_description || 'Un accompagnement personnalisé pour choisir ses études et son avenir.' %>">
+    <meta name="twitter:creator" content="@propulse-edu">
+    <meta name="twitter:image" content="<%= meta_image || asset_path('default-meta-image.jpg') %>">
 
   <body>
     <%= render "shared/navbar" %>
